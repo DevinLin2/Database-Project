@@ -22,68 +22,70 @@ try:
     game_table = """CREATE TABLE Game (
                     Name varchar(30) NOT NULL,
                     DownloadLink varchar(250) NOT NULL, 
+                    DeveloperName varchar(30) NOT NULL,
                     Genre varchar(20) NOT NULL,
                     Cost int(10) NOT NULL,
+                    PlayerBase int(30) NOT NULL,
+                    MoneyMade int(30) NOT NULL,
                     PRIMARY KEY (Name))"""
     player_table = """CREATE TABLE Player (
-                        InGameID varchar(30) NOT NULL,
+                        PlayerID varchar(30) NOT NULL,
                         Name varchar(30) NOT NULL,
                         Playstyle varchar(30) NOT NULL,
                         ELO int(30) NOT NULL,
-                        PRIMARY KEY (InGameID, Name),
+                        TimePlayed int(15) NOT NULL,
+                        MoneySpent int(30) NOT NULL,
+                        PRIMARY KEY (PlayerID, Name),
                         CONSTRAINT Player_Game_Name_fk FOREIGN KEY (Name) REFERENCES Game(Name) 
                             ON UPDATE CASCADE ON DELETE CASCADE)"""
     team_table = """CREATE TABLE Team (
+                    TeamID int(15) NOT NULL,
                     Captain varchar(30) NOT NULL,
-                    InGameID varchar(30) NOT NULL,
-                    Name varchar(30) NOT NULL,
                     Size int(10) NOT NULL,
-                    PRIMARY KEY (Captain, InGameID, Name),
-                    CONSTRAINT Team_Game_Name_fk FOREIGN KEY (Name) REFERENCES Game(Name) 
-                        ON UPDATE CASCADE ON DELETE CASCADE,
-                    CONSTRAINT Team_Player_InGameID_fk FOREIGN KEY (InGameID) REFERENCES Player(InGameID)
-                        ON UPDATE CASCADE ON DELETE CASCADE)"""
+                    Wins int(10) NOT NULL, 
+                    Loses int(10) NOT NULL, 
+                    PrizeMoneyEarned int(30) NOT NULL,
+                    PRIMARY KEY (TeamID, Captain))"""
     owns_table = """CREATE TABLE Owns (
                     Name varchar(30) NOT NULL,
-                    InGameID varchar(30) NOT NULL,
+                    PlayerID varchar(30) NOT NULL,
                     AccID int(15) NOT NULL,
-                    PRIMARY KEY (Name, InGameID, AccID),
+                    PRIMARY KEY (Name, PlayerID, AccID),
                     CONSTRAINT Owns_Game_Name_fk FOREIGN KEY (Name) REFERENCES Game(Name) 
                         ON UPDATE CASCADE ON DELETE CASCADE,
-                    CONSTRAINT Owns_Player_InGameID_fk FOREIGN KEY (InGameID) REFERENCES Player(InGameID)
+                    CONSTRAINT Owns_Player_PlayerID_fk FOREIGN KEY (PlayerID) REFERENCES Player(PlayerID)
                         ON UPDATE CASCADE ON DELETE CASCADE,
                     CONSTRAINT Owns_Account_fk FOREIGN KEY (AccID) REFERENCES Account(AccID)
                         ON UPDATE CASCADE ON DELETE CASCADE)"""
     has_table = """CREATE TABLE Has (
                     Name varchar(30) NOT NULL,
-                    InGameID varchar(30) NOT NULL,
                     Captain varchar(30) NOT NULL,
-                    PRIMARY KEY (Name, InGameID, Captain),
+                    TeamID int(15) NOT NULL,
+                    PRIMARY KEY (Name, PlayerID, Captain),
                     CONSTRAINT Has_Game_Name_fk FOREIGN KEY (Name) REFERENCES Game(Name) 
                         ON UPDATE CASCADE ON DELETE CASCADE,
-                    CONSTRAINT Has_Player_InGameID_fk FOREIGN KEY (InGameID) REFERENCES Player(InGameID)
-                        ON UPDATE CASCADE ON DELETE CASCADE,
-                    CONSTRAINT Has_Team_fk FOREIGN KEY (Captain) REFERENCES Team(Captain)
+                    CONSTRAINT Plays_For_Team_fk FOREIGN KEY (Captain, TeamID) REFERENCES Team(Captain, TeamID)
                         ON UPDATE CASCADE ON DELETE CASCADE)"""
     plays_for_table = """CREATE TABLE Plays_For (
                     Name varchar(30) NOT NULL,
-                    InGameID varchar(30) NOT NULL,
+                    PlayerID varchar(30) NOT NULL,
                     Captain varchar(30) NOT NULL,
+                    TeamID int(15) NOT NULL,
                     Role varchar(30) NOT NULL,
-                    PRIMARY KEY (Name, InGameID, Captain),
+                    PRIMARY KEY (Name, PlayerID, Captain),
                     CONSTRAINT Plays_For_Game_Name_fk FOREIGN KEY (Name) REFERENCES Game(Name) 
                         ON UPDATE CASCADE ON DELETE CASCADE,
-                    CONSTRAINT Plays_For_Player_InGameID_fk FOREIGN KEY (InGameID) REFERENCES Player(InGameID)
+                    CONSTRAINT Plays_For_Player_PlayerID_fk FOREIGN KEY (PlayerID) REFERENCES Player(PlayerID)
                         ON UPDATE CASCADE ON DELETE CASCADE,
-                    CONSTRAINT Plays_For_Team_fk FOREIGN KEY (Captain) REFERENCES Team(Captain)
+                    CONSTRAINT Plays_For_Team_fk FOREIGN KEY (Captain, TeamID) REFERENCES Team(Captain, TeamID)
                         ON UPDATE CASCADE ON DELETE CASCADE)"""
     plays_table = """CREATE TABLE Plays (
-                    InGameID varchar(30) NOT NULL, 
+                    PlayerID varchar(30) NOT NULL, 
                     Name varchar(30) NOT NULL, 
-                    PRIMARY KEY (InGameID, Name),
+                    PRIMARY KEY (PlayerID, Name),
                     CONSTRAINT Plays_Game_Name_fk FOREIGN KEY (Name) REFERENCES Game(Name)
                         ON UPDATE CASCADE ON DELETE CASCADE,
-                    CONSTRAINT Plays_Player_InGameID_fk FOREIGN KEY (InGameID) REFERENCES Player(InGameID)
+                    CONSTRAINT Plays_Player_PlayerID_fk FOREIGN KEY (PlayerID) REFERENCES Player(PlayerID)
                         ON UPDATE CASCADE ON DELETE CASCADE)"""
     cursor = connection.cursor()
     cursor.execute(account_table)
