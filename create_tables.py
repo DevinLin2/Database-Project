@@ -42,7 +42,7 @@ try:
     team_table = """CREATE TABLE Team (
                     TeamID              int(15)         NOT NULL,
                     Captain             varchar(30)     NULL,
-                    Size                int(10)         NULL,
+                    Organization        varchar(30)     NULL,
                     Wins                int(10)         NULL, 
                     Loses               int(10)         NULL, 
                     PrizeMoneyEarned    int(30)         NULL,
