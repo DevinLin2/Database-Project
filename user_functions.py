@@ -211,6 +211,13 @@ def team_tourny_draw(available_teams_arr, game):
     return matchups
 
 
+def turn_string_to_list(string):
+    return_list = string.strip('][').split(', ')
+    for i in return_list:
+        i = int(i)
+    return return_list
+
+
 # draws tournament seeding for singles players into semi-random teams 
 # system alternates highest and lowest elo ratings until last player in team size
 # at which point it picks the player which brings the team closest to the mean elo rating
@@ -325,9 +332,12 @@ if __name__ == '__main__':
             print("Reminder: the expected arguments for this function are: ", function_inputs[user_input])
             user_input_args = input("Please enter your arguments, each separated by a space")
             user_input_args = user_input_args.split()
+            # parses out arguments from string
             for i in user_input_args:
                 if i.isnumeric():
                     i = int(i)
+            if user_input is "team_tourny_draw" or user_input is "singles_tourny_draw":
+                user_input_args[0] = turn_string_to_list(user_input_args[0])
             functions[user_input](*user_input_args)
         elif user_input != 'end':
             print("Sorry, your function was not recognized. Please try \'help\' if you're stuck!")
