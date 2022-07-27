@@ -2,6 +2,8 @@ from http.client import FOUND
 import mysql.connector
 import random
 from pymysql import NULL
+import math
+
 
 
 # code which allows a selection query of the database
@@ -49,10 +51,10 @@ def sql_insert(query, params):
 
 # prints and returns the information of player associated with a game and ingame name
 def search_player(ign, game_name):
-    query = "select * from Player where InGameID = %s and Name = %s"
+    query = "select * from Player where PlayerID = %s and Name = %s"
     params = (ign, game_name)
     selection = make_select(query, params)
-    print(selection)
+    # print(selection)
     return selection
 
 
@@ -76,7 +78,7 @@ def link_game(gameID, game_name, playstyle, elo, time_played, money_spent, is_on
 def update_game_profile(ign, gamename, playstyle, elo, time_played, money_spent, is_online):
     query = "update Player set Playstyle = %s and" \
             " TimePlayed = %s and MoneySpent = %s and isOnline = %s" \
-            "ELO = %s where InGameID = %s and Name = %s"
+            "ELO = %s where PlayerID = %s and Name = %s"
     params = (playstyle, time_played, money_spent, is_online, elo, ign, gamename)
     sql_insert(query, params)
 
@@ -127,8 +129,12 @@ def check_roster(team_id):
     query = "select PlayerID from Plays_For where TeamID = (%s)"
     param = (team_id, )
     roster = make_select(query, param)
-    print(roster)
-    return roster
+    # print(roster)
+    new_roster = []
+    for i in roster:
+        new_roster.append(int(i[0]))
+    # print(new_roster)
+    return new_roster
 
 
 # help_func displays all available functions
@@ -166,19 +172,16 @@ def part(team, elo, low, high):
 # returns number of byes appropriate for this round
 # should return 0 for rounds after the first one
 def number_of_byes(count):
-    power_of_2 = -1
-    while count >= 2^(power_of_2+1):
-        power_of_2 += 1
-    # return double that number, because you want each bye team
-    # and the number of teams that win without a bye
-    # to total to a power of 2
-    return 2*(count - 2^power_of_2)
+    power = int(math.log(count, 2))
+    number_of_byes = (math.pow(2, power + 1)) - count
+    return number_of_byes
 
 
 def eligible_player(p_ids, game):
     eligible_players = []
     for i in p_ids:
-        if search_player(i, game)["Name"] == game:
+        # print(search_player(i, game))
+        if len(search_player(i, game)) != 0:
             eligible_players.append(i)
     return eligible_players
 
@@ -196,27 +199,32 @@ def team_tourny_draw(available_teams_arr, game):
             
     #take team avg elo
     team_avg_elo = []
+    print(available_teams_arr)
     for i in range(len(available_teams_arr)):
         roster_size = 0
         team_elo = 0
         for player in eligible_player(check_roster(available_teams_arr[i]), game):
             roster_size += 1
-            team_elo += search_player(player, game)["ELO"]
-        team_avg_elo[i] = team_elo/roster_size
+            team_elo += search_player(player, game)[0][3]
+        team_avg_elo.append(team_elo/roster_size)
     #order teams by avg elo
+    print(team_avg_elo)
     quick_sort(available_teams_arr, team_avg_elo, 0, len(team_avg_elo) - 1)
+    print(available_teams_arr)
     # find next power of two, and give teams byes
     # such that subsequent rounds will not have byes
     bye_count = number_of_byes(len(available_teams_arr))
+    print(bye_count)
     # match teams, highest avg elos get byes, after that it's highest vs lowest
     byes = 0
     matchups = []
     # while there are byes, pair highest elo teams with byes
     while byes < bye_count:
-        matchups.append([available_teams_arr.pop(0), 'bye'])
+        matchups.append([available_teams_arr.pop(-1), 'bye'])
+        byes += 1
     # after going through byes, pair highest and lowest
-    while len(available_teams_arr) < 1:
-        matchups.append([available_teams_arr.pop(-1), available_teams_arr(0)])
+    while len(available_teams_arr) > 1:
+        matchups.append([available_teams_arr.pop(-1), available_teams_arr.pop(0)])
     print(matchups)
     return matchups
 
@@ -340,7 +348,7 @@ if __name__ == '__main__':
         # after you input a desired function, it returns with a list of expected args
         if user_input == 'team_tourny_draw':
             teams = [int(item) for item in input("Enter the teams playing: ").split()]
-            print(teams)
+            # print(teams)
             game = input("Enter game being played: ")
             functions[user_input](teams, game)
         elif user_input in functions:
