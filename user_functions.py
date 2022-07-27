@@ -315,7 +315,8 @@ if __name__ == '__main__':
         # after you input a desired function, it returns with a list of expected args
         elif user_input in functions:
             print("Reminder: the expected arguments for this function are: ", function_inputs[user_input])
-            user_input_args = input("Please enter your arguments.")
+            user_input_args = input("Please enter your arguments, each separated by a space")
+            user_input_args = user_input_args.split()
             functions[user_input](user_input_args)
         elif user_input != 'end':
             print("Sorry, your function was not recognized. Please try \'help\' if you're stuck!")
