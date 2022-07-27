@@ -232,7 +232,7 @@ def singles_tourny_draw(available_players, desired_team_size, game):
         # deleted after tournament
         t_id = tourny_team_ids_int + i
         team_name = f"Tournament Team {i}"
-        create_team(t_id, "", team_name, 0, 0, 0)
+        create_team(t_id, -1, team_name, 0, 0, 0)
         tempteam = []
         team_elo = 0
         # alternating highest and lowest elo until last player in team
