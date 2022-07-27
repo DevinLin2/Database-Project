@@ -3,6 +3,8 @@ import names
 import random
 import string
 
+from user_functions import make_select
+
 game_rows = [
     ['League of Legends', 'leagueoflegends.com', 'Riot Games', 'MOBA', 0, 117000000, 20000000000],
     ['Minecraft', 'minecraft.com', 'Mojang Studios', 'Sandbox', 27, 131000000, 200000000],
@@ -31,6 +33,15 @@ def game_table_data():
 
 def generate_player_data(ID):
     return [ID, ]
+
+def generate_has_table_data():
+    query = f"select TeamID from Team"
+    t_ids = make_select(query) 
+    with open('has.csv', mode='w', newline='') as f:
+        writer = csv.writer(f, delimiter=',')
+        writer.writerow('Name', 'TeamID')
+        for i in t_ids:
+            writer.writerow(random.sample(game_names), i)
 
 def player_table_data(num_rows):
     with open('player.csv', mode='w', newline='') as f:
