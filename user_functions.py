@@ -5,6 +5,7 @@ import random
 
 # code which allows a selection query of the database
 def make_select(query, params):
+    return_val = -1
     try:
         # connects to locally(for now) held server and executes the query
         connection = mysql.connector.connect(host='localhost', database='matchmaking',
@@ -186,10 +187,10 @@ def eligible_player(p_ids, game):
 def team_tourny_draw(available_teams_arr, game):
     #take team avg elo
     team_avg_elo = []
-    for i in range(available_teams_arr):
+    for i in range(len(available_teams_arr)):
         roster_size = 0
         team_elo = 0
-        for player in check_roster(eligible_player(available_teams_arr[i]), game):
+        for player in eligible_player(check_roster(available_teams_arr[i]), game):
             roster_size += 1
             team_elo += search_player(player, game)["ELO"]
         team_avg_elo[i] = team_elo/roster_size
@@ -300,9 +301,9 @@ if __name__ == '__main__':
     }
     function_inputs = {
         "create_account": "(acc_id: int, game_name: str, disc_acc_user: str, email: str)",
-        "link_game": "(gameID: int, game_name: str, playstyle: str, elo: int, time_played: str, money_spent: str, is_online: int)",
-        "search_player": "(ign: str, game_name: str)",
-        "update_game_profile": "(ign: str, game_name: str, playstyle: str, elo: int, time_played: int, money_spent: int, is_online: int)",
+        "link_game": "(PlayerID: int, game_name: str, playstyle: str, elo: int, time_played: str, money_spent: str, is_online: int)",
+        "search_player": "(PlayerID: int, game_name: str)",
+        "update_game_profile": "(PlayerID: int, game_name: str, playstyle: str, elo: int, time_played: int, money_spent: int, is_online: int)",
         "join_team": "(game_name: int, player_id: int, team_id: int)",
         "find_team": "(org_name: str)",
         "create_team": "(team_id: int, captain: str, org_name: str, wins: int, losses: int, prize_money: int)",
@@ -321,6 +322,10 @@ if __name__ == '__main__':
         if user_input == 'help':
             help_func(functions)
         # after you input a desired function, it returns with a list of expected args
+        if user_input == 'team_tourny_draw':
+            teams = [int(item) for item in input("Enter the teams playing: ").split()]
+            game = input("Enter game being played: ")
+            functions[user_input](teams, game)
         elif user_input in functions:
             # print("Reminder: the expected arguments for this function are: ", inspect.getfullargspec(user_input))
             print("Reminder: the expected arguments for this function are: ", function_inputs[user_input])
@@ -332,3 +337,4 @@ if __name__ == '__main__':
             functions[user_input](*user_input_args)
         elif user_input != 'end':
             print("Sorry, your function was not recognized. Please try \'help\' if you're stuck!")
+
