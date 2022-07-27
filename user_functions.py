@@ -253,14 +253,14 @@ def singles_tourny_draw(available_players, desired_team_size, game):
     player_elo_list = []
     # grab player elos, tab up overall elos
     for player in available_players:
-        player_elo = search_player(player, game)["ELO"]
+        player_elo = search_player(player, game)[0]["ELO"] # THIS MIGHT BE A MISTAKE, BUT I CAN'T CHECK RN (added [0])
         draw_mean_elo += player_elo
         player_elo_list.append(player_elo)
     # sort players by elo
     quick_sort(available_players, draw_mean_elo, 0, len(draw_mean_elo) - 1)
     # add players to teams
     teams_list = []
-    for i in range((available_players)/desired_team_size):
+    for i in range(len((available_players))/desired_team_size):
         # creates teams in a team_id range so that they can be easily 
         # deleted after tournament
         t_id = tourny_team_ids_int + i
@@ -294,12 +294,13 @@ def singles_tourny_draw(available_players, desired_team_size, game):
                 found_closest = True
                 k-=1
             k+=1
+        join_team(game, available_players(k), t_id, "Tournament")
         available_players.pop(available_players(k))
         player_elo_list.pop(k)
-        join_team(game, tempteam[j], t_id, "Tournament")
         # team is complete, now we add it to a list of teams
         teams_list.append(t_id)
     # run draw with tournament teams
+    print(teams_list)
     return team_tourny_draw(teams_list)
 
 
