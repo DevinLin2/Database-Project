@@ -41,7 +41,7 @@ try:
                             ON UPDATE CASCADE ON DELETE CASCADE)"""
     team_table = """CREATE TABLE Team (
                     TeamID              int(15)         NOT NULL,
-                    Captain             varchar(30)     NULL,
+                    Captain             int(15)         NULL,
                     Organization        varchar(30)     NULL,
                     Wins                int(10)         NULL, 
                     Loses               int(10)         NULL, 
