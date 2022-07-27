@@ -45,7 +45,7 @@ def sql_insert(query, params):
 
 # prints and returns the information of player associated with a game and ingame name
 def search_player(ign, game_name):
-    query = "select * from Player where InGameID = ? and Name = ?"
+    query = "select * from Player where InGameID = %s and Name = %s"
     params = (ign, game_name)
     selection = make_select(query, params)
     print(selection)
@@ -63,16 +63,16 @@ def create_account(accID, name, discAccUser, email):
 #link_game adds a player(player of a specific game associated with an account)
 def link_game(gameID, game_name, playstyle, elo, time_played, money_spent, is_online):
     player_profile_query = "insert into Player (InGameID, Name, Playstyle, ELO, TimePlayed, MoneySpent, isOnline) values (" \
-                           "?, ?, ?, ?, ?, ?, ?)"
+                           "%s, %s, %s, %s, %s, %s, %s)"
     params = (gameID, game_name, playstyle, elo, time_played, money_spent, is_online)
     sql_insert(player_profile_query, params)
 
 
 #update_game_profile changes the information associated with a player
 def update_game_profile(ign, gamename, playstyle, elo, time_played, money_spent, is_online):
-    query = "update Player set Playstyle = ? and" \
-            " TimePlayed = ? and MoneySpent = ? and isOnline = ?" \
-            "ELO = ? where InGameID = ? and Name = ?"
+    query = "update Player set Playstyle = %s and" \
+            " TimePlayed = %s and MoneySpent = %s and isOnline = %s" \
+            "ELO = %s where InGameID = %s and Name = %s"
     params = (playstyle, time_played, money_spent, is_online, elo, ign, gamename)
     sql_insert(query, params)
 
@@ -80,14 +80,14 @@ def update_game_profile(ign, gamename, playstyle, elo, time_played, money_spent,
 #create_team creates a new team
 def create_team(team_id, captain, org_name, wins, losses, prize_money):
     team_query = "insert into Team (TeamID, Captain, Organization, Wins, Loses, PrizeMoneyEarned) values (" \
-                 "?, ?, ?, ?, ?, ?)"
+                 "%s, %s, %s, %s, %s, %s)"
     params = (team_id, captain, org_name, wins, losses, prize_money)
     sql_insert(team_query, params)
 
 
 # find_team prints and returns the information associated with a team
 def find_team(org_name):
-    query = "select * from Team where Organization = ?"
+    query = "select * from Team where Organization = %s"
     params = org_name
     selection = make_select(query, params)
     print(selection)
@@ -96,9 +96,9 @@ def find_team(org_name):
 
 # update_team updates the information associated with a team
 def update_team(team_id, captain, org_name, wins, losses, prize_money):
-    query = "update Team set Captain = ? and" \
-            " Organization = ? and Wins = ? and Loses = ?" \
-            "PrizeMoneyEarned = ? where TeamID = ?"
+    query = "update Team set Captain = %s and" \
+            " Organization = %s and Wins = %s and Loses = %s" \
+            "PrizeMoneyEarned = %s where TeamID = %s"
     params = (captain, org_name, wins, losses, prize_money, team_id)
     sql_insert(query, params)
 
@@ -106,21 +106,21 @@ def update_team(team_id, captain, org_name, wins, losses, prize_money):
 # join_team inserts an association between a player and a team
 def join_team(game_name, player_id, team_id, role):
     join_query = "insert into Plays_For (Name, PlayerID, TeamID, Role) values (" \
-                 "?, ?, ?, ?)"
+                 "%s, %s, %s, %s)"
     params = (game_name, player_id, team_id, role)
     sql_insert(join_query, params)
 
 
 # leave_team removes the association between a specific player and a team
 def leave_team(game_name, player_id, team_id):
-    leave_query = "delete * from Plays_For where Name = ? and PlayerID = ? and TeamID = ?"
+    leave_query = "delete * from Plays_For where Name = %s and PlayerID = %s and TeamID = %s"
     params = (game_name, player_id, team_id)
     sql_insert(leave_query, params)
 
 
 # check_roster prints and returns a list of all playerid's associated with a team
 def check_roster(team_id):
-    query = "select PlayerID from Plays_For where TeamID = ?"
+    query = "select PlayerID from Plays_For where TeamID = %s"
     params = team_id
     roster = make_select(query, params)
     print(roster)
@@ -300,7 +300,7 @@ if __name__ == '__main__':
     }
     function_inputs = {
         "create_account": "(acc_id: int, game_name: str, disc_acc_user: str, email: str)",
-        "link_game": "(gameID: int, game_name: str, playstyle: str, elo: str, time_played: str, money_spent: str, is_online: int)",
+        "link_game": "(gameID: int, game_name: str, playstyle: str, elo: int, time_played: str, money_spent: str, is_online: int)",
         "search_player": "(ign: str, game_name: str)",
         "update_game_profile": "(ign: str, game_name: str, playstyle: str, elo: int, time_played: int, money_spent: int, is_online: int)",
         "join_team": join_team,
