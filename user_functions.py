@@ -1,6 +1,5 @@
 from http.client import FOUND
 import mysql.connector
-import inspect
 import random
 
 
@@ -290,6 +289,22 @@ if __name__ == '__main__':
         "singles_tourny_draw": singles_tourny_draw,
         "help": help_func
     }
+    function_inputs = {
+        "create_account": "(acc_id: int, game_name: str, disc_acc_user: str, email: str)",
+        "link_game": "(gameID: int, game_name: str, playstyle: str, elo: str, time_played: str, money_spent: str, is_online: int)",
+        "search_player": search_player,
+        "update_game_profile": update_game_profile,
+        "join_team": join_team,
+        "find_team": find_team,
+        "create_team": create_team,
+        "update_team": update_team,
+        "leave_team": leave_team,
+        "check_roster": check_roster,
+        "eligible_player": eligible_player,
+        "team_tourny_draw": team_tourny_draw,
+        "singles_tourny_draw": singles_tourny_draw,
+        "help": help_func
+    }
     user_input = ''
     # continually accepts functions until you end
     while user_input != 'end':
@@ -299,7 +314,7 @@ if __name__ == '__main__':
             help_func(functions)
         # after you input a desired function, it returns with a list of expected args
         elif user_input in functions:
-            print("Reminder: the expected arguments for this function are: ", inspect.getfullargspec(user_input))
+            print("Reminder: the expected arguments for this function are: ", function_inputs[user_input])
             user_input_args = input("Please enter your arguments.")
             functions[user_input](user_input_args)
         elif user_input != 'end':
