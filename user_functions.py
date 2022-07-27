@@ -303,16 +303,15 @@ if __name__ == '__main__':
         "link_game": "(gameID: int, game_name: str, playstyle: str, elo: str, time_played: str, money_spent: str, is_online: int)",
         "search_player": "(ign: str, game_name: str)",
         "update_game_profile": "(ign: str, game_name: str, playstyle: str, elo: int, time_played: int, money_spent: int, is_online: int)",
-        "join_team": join_team,
-        "find_team": find_team,
-        "create_team": create_team,
-        "update_team": update_team,
-        "leave_team": leave_team,
-        "check_roster": check_roster,
-        "eligible_player": eligible_player,
-        "team_tourny_draw": team_tourny_draw,
-        "singles_tourny_draw": singles_tourny_draw,
-        "help": help_func
+        "join_team": "(game_name: int, player_id: int, team_id: int)",
+        "find_team": "(org_name: str)",
+        "create_team": "(team_id: int, captain: str, org_name: str, wins: int, losses: int, prize_money: int)",
+        "update_team": "(team_id: int, captain: str, org_name: str, wins: int, losses: int, prize_money: int)",
+        "leave_team": "(game_name: str, player_id: int, team_id: int)",
+        "check_roster": "(team_id: int)",
+        "team_tourny_draw": "(available_teams_arr: List[team_id(int)], game: str)",
+        "singles_tourny_draw": "(available_players: List[player_id(int)], desired_team_size: int, game: str)",
+        "help": ""
     }
     user_input = ''
     # continually accepts functions until you end
