@@ -39,13 +39,11 @@ def generate_player_data(ID):
     return [ID, np.random.choice(game_names, size=1)[0], np.random.choice(playstyles, size=1)[0], random.randint(0, 500), random.randint(100, 1500), random.randint(0, 2000), random.randint(0,1)]
 
 def generate_has_table_data():
-    query = f"select TeamID from Team"
-    t_ids = make_select(query) 
     with open('has.csv', mode='w', newline='') as f:
         writer = csv.writer(f, delimiter=',')
-        writer.writerow('Name', 'TeamID')
-        for i in t_ids:
-            writer.writerow(random.sample(game_names), i)
+        writer.writerow(['Name', 'TeamID'])
+        for i in range(50):
+            writer.writerow([np.random.choice(game_names, size=1)[0], i])
 
 def player_table_data(num_rows):
     with open('player.csv', mode='w', newline='') as f:
@@ -97,3 +95,4 @@ player_table_data(1500)
 owns_table_data()
 team_table_data(50)
 plays_for_table_data()
+generate_has_table_data()

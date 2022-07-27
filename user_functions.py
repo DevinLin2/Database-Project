@@ -293,14 +293,14 @@ if __name__ == '__main__':
     user_input = ''
     # continually accepts functions until you end
     while user_input != 'end':
-        user_input = input("Please type a function name, or type \'end\' to end.")
+        user_input = input("Please type a function name, or type \'end\' to end.\n")
         #This if statement just stops you from getting the arguments reminder for the help function
         if user_input == 'help':
             help_func(functions)
         # after you input a desired function, it returns with a list of expected args
         elif user_input in functions:
-            print("Reminder: the expected arguments for this function are: ", inspect.getfullargspec(user_input))
-            user_input_args = input("Please enter your arguments.")
+            # print("Reminder: the expected arguments for this function are: ", inspect.getfullargspec(user_input))
+            user_input_args = input("Please enter your arguments.\n")
             functions[user_input](user_input_args)
         elif user_input != 'end':
             print("Sorry, your function was not recognized. Please try \'help\' if you're stuck!")
