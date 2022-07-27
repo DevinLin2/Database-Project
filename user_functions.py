@@ -2,9 +2,12 @@ from http.client import FOUND
 import mysql.connector
 import random
 
+from pymysql import NULL
+
 
 # code which allows a selection query of the database
 def make_select(query, params):
+    return_val = NULL
     try:
         # connects to locally(for now) held server and executes the query
         connection = mysql.connector.connect(host='localhost', database='matchmaking',
@@ -174,7 +177,7 @@ def number_of_byes(count):
 def eligible_player(p_ids, game):
     eligible_players = []
     for i in p_ids:
-        if search_player(i)["Name"] == game:
+        if search_player(i, game)["Name"] == game:
             eligible_players.append(i)
     return eligible_players
 
@@ -184,12 +187,17 @@ def eligible_player(p_ids, game):
 # gives byes to highest average elo teams, if available
 # afterwards, pairs highest and lowest elo teams
 def team_tourny_draw(available_teams_arr, game):
+    #remove teams with no eligible members
+    for i in available_teams_arr:
+        if eligible_player(check_roster(available_teams_arr[i]), game) is NULL:
+            available_teams_arr[i].pop()
+            
     #take team avg elo
     team_avg_elo = []
-    for i in range(available_teams_arr):
+    for i in range(len(available_teams_arr)):
         roster_size = 0
         team_elo = 0
-        for player in check_roster(eligible_player(available_teams_arr[i]), game):
+        for player in eligible_player(check_roster(available_teams_arr[i]), game):
             roster_size += 1
             team_elo += search_player(player, game)["ELO"]
         team_avg_elo[i] = team_elo/roster_size
