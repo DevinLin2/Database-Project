@@ -6,14 +6,15 @@ from pymysql import NULL
 
 # code which allows a selection query of the database
 def make_select(query, params):
-    return_val = NULL
+    return_val = []
     try:
         # connects to locally(for now) held server and executes the query
         connection = mysql.connector.connect(host='localhost', database='matchmaking',
                                              user='root', password='Destroyer21823iw.')
-        connection.cursor().execute(query, params)
+        cursor = connection.cursor()
+        cursor.execute(query, params)
         # fetches selected data
-        return_val = connection.cursor().fetchall()
+        return_val = cursor.fetchall()
 
     except mysql.connector.Error as err:
         print("Failed to query: {}".format(err))
@@ -21,9 +22,9 @@ def make_select(query, params):
     #closes connection to database and returns selected data
     finally:
         if connection.is_connected():
-            connection.cursor().close()
+            cursor.close()
             connection.close()
-            return return_val
+        return return_val
 
 
 # code for queries to change existing database (insert, update, delete)
@@ -32,9 +33,10 @@ def sql_insert(query, params):
     try:
         connection = mysql.connector.connect(host='localhost', database='matchmaking',
                                              user='root', password='Destroyer21823iw.')
-        connection.cursor().execute(query, params)
+        cursor = connection.cursor()
+        cursor.execute(query, params)
         connection.commit()
-        connection.cursor().close()
+        cursor.close()
 
     except mysql.connector.Error as err:
         print("Failed to query: {}".format(err))
@@ -90,7 +92,7 @@ def create_team(team_id, captain, org_name, wins, losses, prize_money):
 # find_team prints and returns the information associated with a team
 def find_team(org_name):
     query = "select * from Team where Organization = %s"
-    params = org_name
+    params = (org_name,)
     selection = make_select(query, params)
     print(selection)
     return selection
@@ -122,9 +124,9 @@ def leave_team(game_name, player_id, team_id):
 
 # check_roster prints and returns a list of all playerid's associated with a team
 def check_roster(team_id):
-    query = "select PlayerID from Plays_For where TeamID = %s"
-    params = team_id
-    roster = make_select(query, params)
+    query = "select PlayerID from Plays_For where TeamID = (%s)"
+    param = (team_id, )
+    roster = make_select(query, param)
     print(roster)
     return roster
 
@@ -187,9 +189,10 @@ def eligible_player(p_ids, game):
 # afterwards, pairs highest and lowest elo teams
 def team_tourny_draw(available_teams_arr, game):
     #remove teams with no eligible members
-    for i in available_teams_arr:
-        if eligible_player(check_roster(available_teams_arr[i]), game) is NULL:
-            available_teams_arr[i].pop()
+    print(available_teams_arr)
+    for i in range(len(available_teams_arr)):
+        if len(eligible_player(check_roster(available_teams_arr[i]), game)) == 0:
+            available_teams_arr.pop(i)
             
     #take team avg elo
     team_avg_elo = []
@@ -337,6 +340,7 @@ if __name__ == '__main__':
         # after you input a desired function, it returns with a list of expected args
         if user_input == 'team_tourny_draw':
             teams = [int(item) for item in input("Enter the teams playing: ").split()]
+            print(teams)
             game = input("Enter game being played: ")
             functions[user_input](teams, game)
         elif user_input in functions:
@@ -348,7 +352,7 @@ if __name__ == '__main__':
             for i in user_input_args:
                 if i.isnumeric():
                     i = int(i)
-            if user_input is "team_tourny_draw" or user_input is "singles_tourny_draw":
+            if user_input == "team_tourny_draw" or user_input == "singles_tourny_draw":
                 user_input_args[0] = turn_string_to_list(user_input_args[0])
             functions[user_input](*user_input_args)
         elif user_input != 'end':

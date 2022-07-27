@@ -1,0 +1,1501 @@
+PlayerID,GameName,Playstyle,ELO,TimePlayed,MoneySpent,isOnline
+0,Minecraft,newbie,402,735,901,1
+1,Minecraft,coward,493,731,810,1
+2,League of Legends,team player,238,227,1470,1
+3,League of Legends,veteran,276,604,191,1
+4,Online Chess,strategic,410,1403,366,0
+5,Online Chess,strategic,402,1134,1263,1
+6,Minecraft,pro,3,1332,1890,1
+7,Online Chess,hardcore,464,1332,1029,1
+8,Online Chess,coward,353,1105,469,0
+9,League of Legends,coward,304,1409,853,0
+10,League of Legends,coward,392,1401,1553,1
+11,Online Chess,aggressive,305,607,1199,0
+12,Minecraft,veteran,122,1308,669,0
+13,League of Legends,veteran,179,1207,689,1
+14,League of Legends,passive,451,1221,149,1
+15,Minecraft,team player,120,1405,1475,0
+16,Minecraft,passive,355,927,1701,0
+17,League of Legends,veteran,388,1379,504,0
+18,League of Legends,newbie,217,472,1527,1
+19,League of Legends,strategic,158,1320,1389,0
+20,League of Legends,strategic,196,484,641,1
+21,Online Chess,veteran,463,497,795,1
+22,Minecraft,strategic,199,915,1902,1
+23,Minecraft,casual,349,1271,1430,0
+24,Minecraft,passive,68,375,1303,1
+25,League of Legends,passive,354,780,1655,1
+26,Online Chess,solo,87,954,938,0
+27,Minecraft,team player,164,1311,243,0
+28,Online Chess,passive,98,1112,1053,0
+29,Online Chess,team player,467,1436,27,1
+30,Minecraft,pro,231,346,1913,1
+31,League of Legends,hardcore,29,921,269,0
+32,League of Legends,strategic,253,1380,1867,1
+33,Online Chess,aggressive,484,1045,1138,0
+34,League of Legends,aggressive,90,1017,86,1
+35,League of Legends,solo,378,756,1584,0
+36,Minecraft,team player,251,1090,1737,1
+37,Online Chess,veteran,2,1344,1645,0
+38,League of Legends,pro,311,928,1373,0
+39,Online Chess,textbook,289,1445,114,1
+40,Minecraft,solo,207,1297,715,1
+41,Online Chess,textbook,376,1485,1709,0
+42,Online Chess,strategic,113,391,162,1
+43,Minecraft,aggressive,374,705,1557,1
+44,Minecraft,casual,219,1033,1936,0
+45,Minecraft,hardcore,371,314,97,0
+46,League of Legends,aggressive,466,423,622,1
+47,League of Legends,hardcore,61,873,600,1
+48,League of Legends,strategic,149,462,1126,0
+49,Minecraft,casual,442,1209,821,0
+50,League of Legends,textbook,127,1360,1011,0
+51,Minecraft,textbook,231,1013,1133,1
+52,League of Legends,hardcore,307,1196,1500,1
+53,Online Chess,pro,426,451,840,0
+54,Online Chess,passive,310,964,1354,1
+55,Online Chess,coward,456,1129,930,0
+56,Online Chess,strategic,174,371,876,1
+57,Online Chess,casual,327,946,1491,1
+58,Online Chess,solo,397,682,716,1
+59,Online Chess,strategic,169,1173,38,0
+60,Online Chess,pro,57,863,122,0
+61,League of Legends,aggressive,299,1474,1636,0
+62,League of Legends,pro,173,1218,785,0
+63,League of Legends,passive,420,1495,1381,1
+64,League of Legends,team player,470,1425,1610,0
+65,League of Legends,newbie,183,1098,202,0
+66,League of Legends,aggressive,73,971,1351,0
+67,Online Chess,strategic,309,764,1343,1
+68,League of Legends,team player,255,967,1020,1
+69,Minecraft,casual,261,1360,1684,1
+70,League of Legends,strategic,417,304,54,0
+71,Minecraft,pro,174,1312,1980,1
+72,League of Legends,textbook,203,543,1849,0
+73,League of Legends,textbook,148,1215,265,0
+74,Minecraft,hardcore,302,133,783,1
+75,Online Chess,newbie,304,824,893,0
+76,Minecraft,veteran,53,377,546,0
+77,League of Legends,strategic,472,498,796,0
+78,Online Chess,aggressive,61,980,717,0
+79,Online Chess,aggressive,465,918,567,1
+80,Minecraft,team player,316,1422,397,0
+81,League of Legends,hardcore,244,1085,510,0
+82,Online Chess,pro,155,1060,1123,0
+83,League of Legends,pro,3,640,1259,0
+84,League of Legends,coward,23,574,1376,0
+85,League of Legends,veteran,380,1176,1076,0
+86,Minecraft,coward,151,721,1450,1
+87,Minecraft,passive,353,125,1247,1
+88,Minecraft,aggressive,484,656,1825,0
+89,Online Chess,strategic,106,1306,752,0
+90,League of Legends,strategic,140,756,405,1
+91,Online Chess,coward,191,1111,1381,0
+92,League of Legends,veteran,355,306,134,1
+93,Online Chess,newbie,21,441,1085,1
+94,Online Chess,passive,457,944,90,1
+95,Minecraft,hardcore,26,346,1012,0
+96,Minecraft,passive,448,447,911,1
+97,Online Chess,passive,492,500,584,0
+98,Minecraft,solo,18,1293,1349,0
+99,Online Chess,casual,356,936,1526,1
+100,Online Chess,team player,225,1299,1985,1
+101,League of Legends,textbook,253,1459,439,0
+102,League of Legends,newbie,197,1373,1481,0
+103,Online Chess,passive,472,792,1393,0
+104,Online Chess,coward,184,264,656,0
+105,Minecraft,solo,290,1494,304,1
+106,League of Legends,passive,300,533,1746,0
+107,League of Legends,textbook,135,1339,1782,1
+108,Minecraft,coward,449,354,1101,0
+109,League of Legends,casual,53,688,1181,1
+110,Online Chess,solo,208,848,140,0
+111,Minecraft,aggressive,412,1173,1300,1
+112,Online Chess,veteran,488,823,300,1
+113,Online Chess,newbie,115,656,1397,0
+114,League of Legends,veteran,482,109,949,0
+115,Online Chess,pro,31,428,740,1
+116,Minecraft,team player,202,318,1593,1
+117,League of Legends,solo,93,1226,1076,1
+118,Minecraft,hardcore,313,1391,1725,1
+119,League of Legends,strategic,143,714,1762,1
+120,Minecraft,pro,359,164,640,0
+121,Minecraft,hardcore,197,488,1280,1
+122,League of Legends,aggressive,498,546,573,1
+123,League of Legends,aggressive,316,135,251,0
+124,Minecraft,passive,178,163,1311,0
+125,Minecraft,passive,29,652,1822,1
+126,League of Legends,solo,247,481,139,1
+127,Online Chess,solo,475,1045,120,1
+128,Minecraft,casual,497,132,1082,1
+129,Minecraft,casual,164,392,852,0
+130,Online Chess,pro,330,1234,761,1
+131,Online Chess,passive,248,973,1484,0
+132,League of Legends,veteran,467,348,1909,0
+133,Minecraft,newbie,454,1075,1225,1
+134,Online Chess,aggressive,496,443,1338,1
+135,Minecraft,strategic,162,467,1745,1
+136,League of Legends,textbook,150,870,142,0
+137,League of Legends,hardcore,234,167,1087,0
+138,League of Legends,pro,379,169,1039,1
+139,Minecraft,team player,7,1396,707,0
+140,League of Legends,aggressive,436,1118,919,1
+141,Online Chess,pro,331,251,1251,0
+142,Online Chess,aggressive,389,138,121,1
+143,Online Chess,passive,115,433,1578,1
+144,Online Chess,textbook,103,1484,746,0
+145,Minecraft,pro,258,871,39,1
+146,Online Chess,aggressive,17,1360,893,0
+147,League of Legends,hardcore,420,356,278,1
+148,League of Legends,strategic,98,985,906,0
+149,Online Chess,casual,486,1422,1740,1
+150,Minecraft,casual,419,1059,868,1
+151,League of Legends,team player,476,716,1148,1
+152,Online Chess,strategic,432,130,1780,1
+153,League of Legends,strategic,181,521,559,1
+154,Online Chess,passive,66,690,124,1
+155,Online Chess,solo,4,1161,1954,0
+156,Online Chess,casual,220,497,1761,1
+157,League of Legends,hardcore,3,433,778,1
+158,League of Legends,newbie,313,617,67,0
+159,Online Chess,solo,304,1181,8,0
+160,League of Legends,aggressive,191,789,378,1
+161,Online Chess,coward,144,1480,439,1
+162,League of Legends,team player,232,429,1368,1
+163,Minecraft,pro,449,540,650,0
+164,League of Legends,team player,450,521,903,0
+165,Online Chess,textbook,142,1326,1171,0
+166,League of Legends,strategic,251,322,1835,0
+167,Online Chess,casual,232,537,148,1
+168,Minecraft,coward,470,706,773,0
+169,Minecraft,passive,123,499,482,1
+170,Online Chess,solo,378,721,1918,0
+171,League of Legends,strategic,159,1467,564,0
+172,Online Chess,newbie,257,387,1787,0
+173,Minecraft,strategic,77,191,216,1
+174,League of Legends,solo,373,956,1333,1
+175,Online Chess,hardcore,437,997,1930,0
+176,League of Legends,pro,330,797,264,1
+177,League of Legends,newbie,48,765,1324,0
+178,Minecraft,pro,109,1449,1466,0
+179,Online Chess,coward,349,1250,5,1
+180,Minecraft,coward,380,1424,489,0
+181,Minecraft,strategic,269,1495,1116,0
+182,Online Chess,textbook,186,1140,1928,1
+183,Minecraft,casual,124,959,1291,0
+184,Online Chess,veteran,112,168,1487,1
+185,Online Chess,aggressive,263,1095,1566,1
+186,League of Legends,hardcore,408,1005,119,0
+187,Online Chess,newbie,206,1106,51,0
+188,Online Chess,passive,263,803,1392,0
+189,League of Legends,pro,222,301,973,0
+190,League of Legends,solo,56,238,671,1
+191,Minecraft,hardcore,429,260,411,1
+192,Online Chess,coward,328,1237,1740,1
+193,Minecraft,textbook,308,310,124,0
+194,Online Chess,aggressive,80,814,1326,0
+195,Minecraft,team player,27,485,1574,0
+196,Online Chess,coward,62,825,1428,0
+197,Online Chess,coward,410,1438,1026,0
+198,Minecraft,aggressive,69,1421,1318,1
+199,Minecraft,hardcore,112,587,1330,1
+200,Minecraft,veteran,258,800,1176,1
+201,League of Legends,textbook,57,1400,498,0
+202,League of Legends,veteran,113,1281,864,1
+203,Online Chess,team player,210,784,1030,1
+204,League of Legends,team player,102,956,1198,1
+205,League of Legends,passive,162,787,973,0
+206,Minecraft,hardcore,7,464,479,1
+207,Online Chess,veteran,164,1016,1395,1
+208,Online Chess,aggressive,118,136,924,0
+209,Minecraft,passive,68,767,1890,0
+210,League of Legends,coward,366,658,1674,1
+211,Online Chess,veteran,92,142,1359,1
+212,Online Chess,veteran,155,996,1728,1
+213,League of Legends,newbie,53,220,1132,1
+214,League of Legends,passive,426,395,1284,0
+215,Minecraft,pro,80,455,44,0
+216,Online Chess,strategic,324,315,471,0
+217,League of Legends,team player,406,1466,457,0
+218,Minecraft,textbook,71,349,1946,1
+219,League of Legends,hardcore,48,1083,1937,0
+220,Minecraft,newbie,280,1367,745,1
+221,Minecraft,casual,184,1220,1452,1
+222,Minecraft,pro,163,741,1791,1
+223,League of Legends,strategic,335,857,166,0
+224,Minecraft,textbook,362,867,1181,0
+225,Minecraft,hardcore,332,350,647,1
+226,Online Chess,hardcore,67,303,31,1
+227,Minecraft,newbie,297,146,1116,1
+228,League of Legends,passive,369,1082,1565,0
+229,League of Legends,passive,319,1419,1368,0
+230,Minecraft,newbie,338,1177,1946,0
+231,Minecraft,aggressive,42,1331,717,0
+232,League of Legends,textbook,29,1344,1373,1
+233,Minecraft,hardcore,173,381,1205,0
+234,Online Chess,textbook,91,773,1748,1
+235,League of Legends,textbook,41,941,175,0
+236,League of Legends,pro,256,334,1353,0
+237,League of Legends,newbie,197,858,59,1
+238,Online Chess,hardcore,244,557,951,1
+239,League of Legends,casual,52,459,1446,1
+240,Minecraft,solo,159,601,662,1
+241,League of Legends,solo,347,751,1216,1
+242,League of Legends,team player,121,699,469,0
+243,League of Legends,solo,238,261,142,1
+244,Minecraft,pro,318,1455,1340,0
+245,League of Legends,solo,31,327,1390,0
+246,Minecraft,coward,158,967,1731,0
+247,Online Chess,casual,133,798,584,0
+248,League of Legends,passive,203,666,26,0
+249,Minecraft,passive,132,503,354,1
+250,League of Legends,veteran,405,708,1940,0
+251,League of Legends,team player,257,990,1605,0
+252,League of Legends,passive,361,1282,776,0
+253,Minecraft,aggressive,158,864,1313,1
+254,Online Chess,textbook,440,276,1085,1
+255,Minecraft,passive,5,705,1399,1
+256,League of Legends,pro,64,827,1875,0
+257,Minecraft,aggressive,185,1208,1580,0
+258,Online Chess,team player,423,248,283,1
+259,Minecraft,passive,199,780,311,0
+260,League of Legends,strategic,0,737,1316,0
+261,Online Chess,pro,84,348,474,1
+262,Online Chess,team player,20,794,1863,0
+263,Minecraft,pro,241,276,1582,0
+264,League of Legends,pro,257,1270,1318,1
+265,League of Legends,pro,284,740,51,0
+266,Minecraft,hardcore,140,166,270,1
+267,League of Legends,casual,165,413,1003,0
+268,Minecraft,veteran,369,112,588,1
+269,Online Chess,coward,25,1061,1566,0
+270,Minecraft,team player,286,898,1834,1
+271,League of Legends,casual,119,265,1252,1
+272,League of Legends,textbook,128,982,1818,1
+273,Minecraft,pro,280,898,84,1
+274,League of Legends,newbie,47,662,1359,1
+275,Online Chess,coward,487,262,23,0
+276,League of Legends,casual,424,342,721,1
+277,Minecraft,veteran,437,784,225,1
+278,Minecraft,team player,392,337,1353,1
+279,League of Legends,hardcore,16,706,173,1
+280,Minecraft,team player,134,384,823,0
+281,Online Chess,hardcore,490,619,1760,0
+282,League of Legends,textbook,21,186,1417,0
+283,League of Legends,coward,108,128,868,0
+284,Online Chess,strategic,366,1219,1715,0
+285,Minecraft,team player,159,1304,348,0
+286,League of Legends,solo,181,330,910,0
+287,Online Chess,veteran,274,370,915,1
+288,Minecraft,textbook,368,175,1128,0
+289,Minecraft,strategic,41,601,349,0
+290,Minecraft,pro,38,1343,167,0
+291,League of Legends,passive,410,1208,1825,0
+292,Online Chess,veteran,394,217,1241,1
+293,League of Legends,strategic,299,982,1685,1
+294,Minecraft,team player,401,581,225,1
+295,Minecraft,veteran,422,560,309,1
+296,Minecraft,solo,444,663,1050,1
+297,Minecraft,solo,137,1452,1766,0
+298,League of Legends,passive,443,1097,421,1
+299,League of Legends,casual,251,614,79,0
+300,League of Legends,hardcore,191,727,154,0
+301,League of Legends,coward,133,454,1797,0
+302,Online Chess,team player,277,206,467,1
+303,Online Chess,pro,145,312,488,0
+304,Minecraft,solo,39,141,1347,0
+305,League of Legends,textbook,497,652,1888,0
+306,Online Chess,team player,281,1085,1973,1
+307,League of Legends,veteran,92,990,769,1
+308,Minecraft,aggressive,195,679,1912,1
+309,Online Chess,veteran,409,1345,477,0
+310,League of Legends,newbie,491,1370,117,1
+311,Online Chess,team player,342,865,488,1
+312,League of Legends,strategic,464,868,39,0
+313,Minecraft,casual,81,274,544,0
+314,Online Chess,hardcore,496,496,317,0
+315,Minecraft,passive,496,1484,830,1
+316,Online Chess,pro,5,125,72,1
+317,Minecraft,hardcore,277,266,182,0
+318,Minecraft,solo,481,802,1146,1
+319,Online Chess,pro,21,1027,1050,1
+320,Online Chess,newbie,5,382,352,1
+321,Minecraft,coward,141,966,140,0
+322,Online Chess,coward,18,1415,463,0
+323,Minecraft,strategic,341,837,1453,1
+324,Online Chess,pro,38,993,364,1
+325,League of Legends,textbook,72,810,1434,1
+326,League of Legends,newbie,211,1157,82,0
+327,League of Legends,team player,169,1490,898,1
+328,Minecraft,casual,204,315,770,0
+329,League of Legends,pro,90,1359,110,1
+330,Online Chess,aggressive,131,1315,1942,1
+331,Online Chess,hardcore,346,163,1206,1
+332,Online Chess,casual,109,144,1637,0
+333,Online Chess,passive,212,1258,1723,1
+334,Online Chess,hardcore,175,1445,699,1
+335,League of Legends,textbook,434,794,691,0
+336,Online Chess,casual,84,1417,611,1
+337,League of Legends,passive,21,142,1643,1
+338,Online Chess,veteran,195,309,1795,1
+339,Minecraft,passive,131,201,1805,0
+340,Minecraft,textbook,434,375,1980,0
+341,Minecraft,newbie,345,618,1835,0
+342,Online Chess,solo,105,1151,367,0
+343,Minecraft,newbie,241,779,475,1
+344,Minecraft,solo,75,124,1332,0
+345,League of Legends,textbook,260,947,1100,1
+346,Minecraft,aggressive,484,953,57,0
+347,League of Legends,newbie,35,283,739,0
+348,Minecraft,solo,3,1329,728,1
+349,League of Legends,textbook,272,1259,1416,1
+350,Online Chess,passive,271,355,1832,1
+351,League of Legends,team player,91,696,454,0
+352,Online Chess,strategic,206,1106,1668,1
+353,Online Chess,solo,413,919,1438,1
+354,League of Legends,hardcore,210,816,236,0
+355,Minecraft,solo,294,244,1949,1
+356,Online Chess,aggressive,411,1410,510,0
+357,Online Chess,casual,488,473,154,0
+358,League of Legends,hardcore,312,138,679,1
+359,Online Chess,solo,191,905,1461,1
+360,Online Chess,solo,218,653,672,1
+361,Online Chess,passive,209,876,53,0
+362,League of Legends,newbie,200,913,337,1
+363,League of Legends,aggressive,388,927,212,1
+364,League of Legends,veteran,30,861,501,1
+365,Online Chess,veteran,171,801,805,1
+366,Minecraft,team player,474,469,1154,0
+367,League of Legends,hardcore,267,1321,265,1
+368,Minecraft,casual,484,624,1085,0
+369,Online Chess,veteran,286,1221,1810,1
+370,Minecraft,strategic,455,449,1187,0
+371,Minecraft,strategic,349,202,1801,0
+372,League of Legends,strategic,496,1013,919,1
+373,Online Chess,veteran,415,275,634,1
+374,Online Chess,pro,473,1479,1685,1
+375,Online Chess,newbie,215,765,242,0
+376,Minecraft,solo,272,394,1971,0
+377,Online Chess,aggressive,451,329,1356,1
+378,Minecraft,solo,23,1345,551,0
+379,Online Chess,solo,453,337,1124,1
+380,Online Chess,newbie,131,643,1236,0
+381,Online Chess,solo,368,462,1226,1
+382,Online Chess,casual,179,370,310,1
+383,League of Legends,casual,317,1061,1365,0
+384,League of Legends,solo,236,1180,1604,1
+385,Minecraft,hardcore,126,955,1375,0
+386,Minecraft,team player,71,1309,1879,1
+387,League of Legends,hardcore,365,503,1218,1
+388,Online Chess,casual,221,358,1833,0
+389,Online Chess,pro,339,791,1437,1
+390,Minecraft,strategic,54,1280,731,0
+391,League of Legends,casual,343,381,265,1
+392,League of Legends,passive,373,861,1430,0
+393,Minecraft,hardcore,205,950,571,0
+394,Online Chess,casual,415,840,1790,0
+395,Minecraft,strategic,39,250,40,1
+396,Online Chess,textbook,94,1109,1069,1
+397,Minecraft,solo,143,541,349,0
+398,League of Legends,team player,22,836,1349,1
+399,Minecraft,textbook,160,779,727,0
+400,Online Chess,veteran,250,521,307,0
+401,League of Legends,veteran,432,844,1165,1
+402,Online Chess,solo,395,1474,172,0
+403,Minecraft,coward,317,114,1291,1
+404,League of Legends,passive,268,501,1754,0
+405,League of Legends,solo,322,852,118,0
+406,Minecraft,hardcore,477,260,1854,1
+407,League of Legends,hardcore,478,231,242,0
+408,League of Legends,veteran,382,983,997,0
+409,Online Chess,strategic,497,260,696,0
+410,Online Chess,solo,233,621,741,0
+411,League of Legends,veteran,1,578,1082,1
+412,League of Legends,solo,383,1484,1031,1
+413,League of Legends,passive,486,1185,1466,0
+414,League of Legends,coward,34,772,1676,1
+415,Online Chess,aggressive,111,1254,1423,0
+416,Minecraft,hardcore,466,1269,1085,0
+417,Online Chess,aggressive,374,913,184,0
+418,Minecraft,solo,217,328,1572,1
+419,Online Chess,veteran,37,184,639,1
+420,League of Legends,team player,124,283,1549,1
+421,Minecraft,passive,106,1429,1126,1
+422,Minecraft,coward,359,1372,1015,0
+423,Online Chess,strategic,40,1439,1907,1
+424,League of Legends,veteran,317,1246,478,0
+425,League of Legends,hardcore,121,388,732,1
+426,Online Chess,newbie,454,571,310,1
+427,Online Chess,solo,238,1167,1845,1
+428,League of Legends,textbook,129,1417,859,1
+429,League of Legends,aggressive,376,1090,478,1
+430,League of Legends,newbie,419,334,1945,1
+431,League of Legends,casual,92,270,271,1
+432,Online Chess,team player,262,623,472,1
+433,Online Chess,veteran,163,1272,408,0
+434,League of Legends,hardcore,125,742,105,0
+435,League of Legends,pro,337,367,337,0
+436,League of Legends,strategic,173,528,1950,0
+437,Online Chess,veteran,151,1094,938,1
+438,Online Chess,pro,102,973,536,1
+439,Minecraft,team player,113,190,335,1
+440,Minecraft,aggressive,375,550,1816,1
+441,League of Legends,team player,17,307,1991,0
+442,Minecraft,veteran,437,1488,917,1
+443,League of Legends,newbie,14,1452,1968,1
+444,Online Chess,coward,265,674,521,1
+445,Online Chess,hardcore,338,137,615,0
+446,League of Legends,pro,410,1141,430,1
+447,Online Chess,newbie,490,1208,1881,1
+448,League of Legends,passive,150,1113,1412,0
+449,League of Legends,hardcore,250,170,394,0
+450,Minecraft,hardcore,107,1069,303,0
+451,Minecraft,team player,320,148,13,1
+452,League of Legends,solo,426,558,269,0
+453,Online Chess,veteran,309,1116,791,1
+454,League of Legends,team player,37,1125,1990,0
+455,Minecraft,pro,183,774,1192,1
+456,Minecraft,passive,194,651,62,0
+457,League of Legends,veteran,255,269,1965,0
+458,Online Chess,hardcore,14,813,1467,0
+459,League of Legends,solo,158,597,188,1
+460,League of Legends,newbie,403,831,1196,0
+461,Online Chess,solo,5,106,1708,1
+462,Online Chess,strategic,431,1299,1274,1
+463,Online Chess,team player,39,1396,161,1
+464,Online Chess,coward,10,1256,404,0
+465,Online Chess,newbie,65,326,1129,0
+466,Minecraft,coward,394,969,799,0
+467,League of Legends,textbook,260,543,95,0
+468,Minecraft,veteran,55,1084,1938,0
+469,Online Chess,solo,240,114,1660,0
+470,Minecraft,newbie,240,182,1611,0
+471,Online Chess,team player,228,430,1300,1
+472,League of Legends,pro,168,252,963,0
+473,Minecraft,veteran,316,1014,586,0
+474,Minecraft,aggressive,347,295,1987,0
+475,League of Legends,solo,147,462,1207,0
+476,League of Legends,newbie,81,823,600,1
+477,League of Legends,team player,264,613,242,1
+478,Minecraft,newbie,359,1490,1266,0
+479,League of Legends,textbook,445,406,528,1
+480,Minecraft,strategic,265,411,695,1
+481,League of Legends,hardcore,445,428,1916,1
+482,League of Legends,pro,194,689,462,0
+483,League of Legends,veteran,110,514,885,1
+484,Minecraft,pro,413,1077,1888,0
+485,Minecraft,solo,317,1127,238,0
+486,Minecraft,aggressive,488,376,1404,0
+487,Online Chess,casual,410,249,454,1
+488,League of Legends,casual,432,291,127,1
+489,Minecraft,strategic,66,1403,1839,0
+490,Minecraft,veteran,488,255,174,1
+491,League of Legends,textbook,34,1135,1425,1
+492,Minecraft,textbook,4,920,606,0
+493,Minecraft,passive,134,774,214,1
+494,Online Chess,passive,10,1194,134,0
+495,League of Legends,textbook,472,208,710,0
+496,League of Legends,veteran,471,390,1156,1
+497,Online Chess,solo,258,524,65,0
+498,Minecraft,casual,6,1300,1194,1
+499,League of Legends,veteran,421,1221,1985,0
+500,Minecraft,aggressive,48,138,526,1
+501,League of Legends,passive,123,108,1466,0
+502,League of Legends,team player,289,869,1279,0
+503,Online Chess,solo,114,176,269,1
+504,Minecraft,newbie,449,957,363,0
+505,League of Legends,hardcore,83,1171,1914,1
+506,Online Chess,aggressive,275,1046,1201,0
+507,Online Chess,coward,233,1076,420,0
+508,League of Legends,passive,88,229,846,1
+509,Online Chess,strategic,144,726,901,0
+510,League of Legends,coward,431,1357,899,1
+511,Online Chess,strategic,35,783,1948,0
+512,Online Chess,team player,122,1153,752,0
+513,Online Chess,pro,341,286,1103,1
+514,League of Legends,team player,298,794,939,1
+515,League of Legends,aggressive,451,1270,1384,1
+516,League of Legends,solo,448,600,229,1
+517,Minecraft,strategic,138,178,1744,1
+518,League of Legends,coward,189,358,674,0
+519,League of Legends,coward,265,737,1175,1
+520,Online Chess,team player,57,1413,1453,1
+521,League of Legends,veteran,238,315,1641,0
+522,League of Legends,passive,111,798,1414,1
+523,Minecraft,solo,68,888,468,0
+524,League of Legends,hardcore,111,383,669,0
+525,Minecraft,pro,412,764,1558,1
+526,Minecraft,solo,106,1066,138,1
+527,Online Chess,passive,249,738,958,1
+528,Online Chess,newbie,94,580,876,1
+529,League of Legends,team player,326,844,1687,1
+530,Minecraft,team player,226,1482,305,1
+531,Online Chess,pro,227,124,1549,1
+532,League of Legends,pro,429,529,464,0
+533,Minecraft,passive,351,1348,1108,0
+534,League of Legends,team player,444,1001,1380,0
+535,League of Legends,pro,234,1013,693,0
+536,Online Chess,newbie,17,851,1757,0
+537,Minecraft,coward,428,238,1826,0
+538,League of Legends,pro,227,1210,1779,0
+539,Online Chess,casual,110,619,781,1
+540,League of Legends,textbook,381,1163,1978,1
+541,Minecraft,veteran,185,1317,739,0
+542,Online Chess,textbook,68,342,1022,1
+543,Online Chess,pro,134,1274,986,1
+544,Minecraft,pro,38,432,983,1
+545,League of Legends,veteran,62,361,1011,0
+546,League of Legends,pro,256,1002,1111,0
+547,Minecraft,strategic,473,1225,931,1
+548,League of Legends,strategic,23,505,647,1
+549,Minecraft,aggressive,119,765,1885,1
+550,League of Legends,textbook,74,479,1487,1
+551,League of Legends,solo,386,565,1953,0
+552,League of Legends,solo,226,498,760,1
+553,League of Legends,passive,174,1381,1183,1
+554,Online Chess,strategic,44,353,356,0
+555,Online Chess,aggressive,140,1368,242,1
+556,League of Legends,aggressive,371,705,614,1
+557,Online Chess,solo,470,1010,1192,0
+558,Minecraft,aggressive,350,1295,998,0
+559,Online Chess,textbook,471,381,1719,1
+560,Online Chess,hardcore,208,1081,346,0
+561,League of Legends,strategic,179,380,1691,1
+562,Online Chess,casual,357,1182,1616,1
+563,Minecraft,hardcore,152,1288,705,1
+564,League of Legends,coward,429,1148,1502,0
+565,League of Legends,veteran,250,729,1579,0
+566,Minecraft,team player,40,1434,471,0
+567,Online Chess,aggressive,82,382,1613,1
+568,Minecraft,team player,218,1060,1820,0
+569,Minecraft,aggressive,402,1207,1395,0
+570,Online Chess,casual,95,417,1193,1
+571,League of Legends,strategic,111,1351,1879,0
+572,League of Legends,team player,158,546,154,1
+573,League of Legends,coward,12,443,379,0
+574,Minecraft,coward,136,1302,679,1
+575,League of Legends,coward,404,584,1328,0
+576,League of Legends,hardcore,497,242,1132,1
+577,Online Chess,veteran,208,1463,1511,0
+578,League of Legends,newbie,439,494,1909,0
+579,Online Chess,pro,126,1361,1779,1
+580,Minecraft,newbie,437,136,863,0
+581,League of Legends,hardcore,220,809,716,0
+582,Minecraft,newbie,308,944,134,0
+583,Online Chess,casual,399,772,1308,0
+584,Online Chess,passive,116,576,1729,0
+585,Online Chess,veteran,414,918,328,1
+586,Minecraft,aggressive,452,840,1787,1
+587,League of Legends,passive,387,1416,51,1
+588,Online Chess,team player,205,1496,892,0
+589,Online Chess,textbook,466,1232,1580,0
+590,Online Chess,textbook,130,1327,734,1
+591,League of Legends,team player,126,732,370,0
+592,Minecraft,casual,370,1000,259,0
+593,Minecraft,aggressive,11,432,1928,0
+594,Minecraft,pro,27,161,1582,1
+595,Online Chess,veteran,95,582,366,1
+596,Online Chess,aggressive,190,1450,1742,0
+597,Online Chess,hardcore,266,635,511,1
+598,League of Legends,aggressive,251,706,1260,1
+599,Minecraft,coward,165,248,132,1
+600,League of Legends,veteran,189,911,783,1
+601,League of Legends,passive,50,1032,1747,1
+602,Online Chess,textbook,222,227,1053,1
+603,Minecraft,textbook,27,844,881,0
+604,Online Chess,passive,312,567,1615,1
+605,Minecraft,pro,121,816,375,0
+606,Minecraft,pro,12,546,199,1
+607,Minecraft,textbook,291,131,1342,1
+608,Online Chess,pro,191,971,1449,1
+609,Online Chess,hardcore,176,902,1938,1
+610,Online Chess,team player,269,1401,1167,0
+611,League of Legends,textbook,108,845,225,1
+612,League of Legends,coward,115,1135,277,0
+613,Minecraft,coward,202,330,1731,1
+614,League of Legends,solo,259,887,1235,1
+615,Online Chess,newbie,73,1233,1464,1
+616,League of Legends,solo,226,1446,1727,1
+617,Minecraft,pro,491,1265,176,0
+618,Online Chess,textbook,230,1339,1904,0
+619,Minecraft,textbook,264,209,1971,0
+620,Minecraft,newbie,246,1090,1480,1
+621,League of Legends,newbie,328,356,583,1
+622,Online Chess,veteran,468,1174,647,0
+623,Online Chess,team player,476,1487,596,1
+624,Minecraft,team player,431,415,919,1
+625,League of Legends,strategic,437,1316,370,1
+626,Minecraft,veteran,211,1421,433,0
+627,League of Legends,aggressive,288,684,644,0
+628,League of Legends,strategic,32,1237,706,0
+629,Online Chess,textbook,366,1443,99,0
+630,League of Legends,coward,89,729,471,1
+631,Online Chess,coward,493,909,1435,1
+632,Minecraft,strategic,295,722,1916,0
+633,Minecraft,team player,259,340,169,1
+634,League of Legends,strategic,229,1424,1732,0
+635,League of Legends,pro,27,502,584,0
+636,League of Legends,strategic,153,663,1479,0
+637,League of Legends,textbook,249,820,1453,1
+638,League of Legends,textbook,98,1143,1149,0
+639,League of Legends,pro,2,1444,1097,1
+640,Minecraft,team player,86,1045,902,0
+641,Minecraft,pro,318,1000,197,1
+642,Online Chess,casual,328,993,608,0
+643,League of Legends,newbie,463,1370,968,0
+644,Online Chess,veteran,0,276,699,1
+645,League of Legends,pro,0,1439,1939,1
+646,Online Chess,casual,282,1281,1956,1
+647,Minecraft,aggressive,230,1149,978,1
+648,Minecraft,veteran,243,222,1519,0
+649,League of Legends,aggressive,250,385,1880,1
+650,Minecraft,team player,473,953,1751,1
+651,Minecraft,textbook,386,1367,382,0
+652,League of Legends,pro,165,726,187,0
+653,Online Chess,team player,474,1336,1799,0
+654,Minecraft,team player,356,229,795,1
+655,Online Chess,pro,487,846,1045,0
+656,Online Chess,passive,97,914,1276,0
+657,Minecraft,hardcore,257,1082,1754,0
+658,League of Legends,coward,15,292,631,0
+659,Online Chess,passive,164,337,1308,1
+660,Minecraft,pro,447,747,274,1
+661,League of Legends,pro,463,913,1499,0
+662,League of Legends,strategic,489,856,566,0
+663,Online Chess,textbook,156,210,837,1
+664,Online Chess,passive,303,133,609,1
+665,Minecraft,pro,132,530,55,0
+666,Online Chess,passive,212,332,1863,0
+667,League of Legends,textbook,178,122,501,0
+668,Online Chess,coward,87,714,1783,1
+669,Minecraft,coward,205,736,1501,0
+670,League of Legends,veteran,450,1342,1895,1
+671,Minecraft,hardcore,95,136,1421,0
+672,Minecraft,passive,46,1322,968,1
+673,Minecraft,pro,458,1210,578,1
+674,Online Chess,veteran,459,151,586,0
+675,League of Legends,casual,176,298,418,1
+676,League of Legends,solo,387,1247,210,1
+677,League of Legends,pro,18,1009,1307,0
+678,Minecraft,hardcore,253,715,601,1
+679,Online Chess,strategic,473,1255,1211,0
+680,Online Chess,textbook,224,725,41,0
+681,Minecraft,newbie,254,297,1251,1
+682,Minecraft,veteran,437,735,206,1
+683,Minecraft,pro,327,888,985,1
+684,League of Legends,team player,123,183,431,0
+685,Minecraft,passive,402,1143,501,1
+686,League of Legends,strategic,380,432,806,1
+687,League of Legends,hardcore,127,591,1435,1
+688,League of Legends,team player,283,1067,113,1
+689,League of Legends,solo,415,118,421,0
+690,Minecraft,pro,406,227,1836,1
+691,Minecraft,team player,449,996,1838,0
+692,Online Chess,solo,63,615,736,1
+693,League of Legends,team player,463,1389,6,1
+694,Online Chess,team player,357,923,900,0
+695,League of Legends,strategic,6,1417,178,1
+696,League of Legends,pro,113,260,545,0
+697,Online Chess,newbie,281,145,744,1
+698,Online Chess,aggressive,0,1475,1468,0
+699,Minecraft,passive,224,1380,88,0
+700,League of Legends,casual,293,267,74,0
+701,League of Legends,textbook,313,121,963,0
+702,League of Legends,veteran,438,1266,1323,1
+703,Online Chess,casual,167,1189,1624,1
+704,League of Legends,pro,27,1032,1897,1
+705,Online Chess,strategic,488,970,215,1
+706,Minecraft,aggressive,36,674,1885,0
+707,Minecraft,veteran,197,1007,552,0
+708,Online Chess,newbie,282,199,1027,0
+709,League of Legends,hardcore,160,1084,1493,0
+710,Online Chess,team player,223,556,648,1
+711,Online Chess,coward,353,1360,919,1
+712,Online Chess,veteran,254,1253,574,1
+713,Minecraft,pro,237,885,61,0
+714,League of Legends,passive,383,1226,1586,1
+715,Online Chess,hardcore,211,1152,1838,1
+716,Minecraft,textbook,53,1015,918,0
+717,League of Legends,newbie,221,630,80,1
+718,League of Legends,coward,376,1381,880,1
+719,League of Legends,solo,338,1014,1492,0
+720,League of Legends,newbie,388,694,71,0
+721,Online Chess,textbook,10,235,1403,0
+722,League of Legends,passive,170,302,482,1
+723,Minecraft,coward,275,967,1273,1
+724,Online Chess,strategic,125,1188,24,1
+725,Minecraft,casual,352,428,1878,0
+726,Online Chess,aggressive,276,797,252,1
+727,League of Legends,veteran,69,547,926,0
+728,Online Chess,solo,463,1273,1457,1
+729,Minecraft,team player,202,287,378,0
+730,Online Chess,passive,291,477,1167,0
+731,League of Legends,textbook,310,1173,636,0
+732,Online Chess,hardcore,26,112,1079,0
+733,Minecraft,aggressive,136,1044,1558,1
+734,League of Legends,pro,64,581,1737,1
+735,Online Chess,strategic,289,684,1486,0
+736,Online Chess,coward,495,1021,1158,1
+737,Minecraft,hardcore,184,1008,1683,0
+738,Minecraft,strategic,290,156,582,0
+739,Online Chess,solo,56,266,811,0
+740,Minecraft,pro,324,241,914,1
+741,Online Chess,newbie,440,1188,1924,0
+742,League of Legends,strategic,499,364,1359,1
+743,League of Legends,strategic,378,236,212,1
+744,Online Chess,newbie,394,1309,335,1
+745,Online Chess,newbie,33,603,1285,0
+746,League of Legends,pro,308,873,784,0
+747,Online Chess,newbie,262,1211,120,1
+748,Online Chess,team player,149,832,745,1
+749,Minecraft,casual,358,404,605,0
+750,Online Chess,veteran,379,283,149,1
+751,League of Legends,casual,480,597,1284,0
+752,Minecraft,pro,393,288,1214,1
+753,League of Legends,coward,358,1403,1497,0
+754,Minecraft,casual,102,1125,903,0
+755,Minecraft,passive,376,1496,1733,1
+756,Online Chess,newbie,364,1486,757,1
+757,Minecraft,newbie,64,1273,1875,0
+758,Online Chess,strategic,366,1387,1804,1
+759,League of Legends,strategic,314,1087,637,0
+760,Online Chess,aggressive,321,550,1894,1
+761,Online Chess,coward,293,1215,474,1
+762,Online Chess,pro,97,300,334,1
+763,Minecraft,passive,29,981,466,0
+764,Online Chess,textbook,29,1398,1922,1
+765,Online Chess,passive,182,1205,1687,0
+766,Online Chess,passive,177,337,312,1
+767,Minecraft,solo,206,320,1021,1
+768,Online Chess,textbook,453,189,1538,1
+769,League of Legends,strategic,2,1030,1451,0
+770,League of Legends,veteran,178,754,1383,0
+771,League of Legends,newbie,417,774,889,0
+772,Online Chess,pro,180,1049,266,0
+773,Online Chess,pro,223,128,1457,0
+774,Online Chess,veteran,383,793,1733,1
+775,League of Legends,passive,319,949,478,0
+776,Online Chess,aggressive,288,741,1890,0
+777,Online Chess,passive,89,1315,30,1
+778,Minecraft,aggressive,337,163,1025,0
+779,Online Chess,hardcore,72,1185,943,0
+780,Minecraft,strategic,372,681,370,1
+781,League of Legends,casual,335,925,1011,0
+782,Minecraft,hardcore,173,142,321,1
+783,League of Legends,casual,262,304,1553,1
+784,Minecraft,solo,442,1244,1706,1
+785,League of Legends,pro,240,845,21,1
+786,League of Legends,pro,120,1076,1915,1
+787,League of Legends,newbie,426,234,1689,1
+788,League of Legends,hardcore,235,288,430,0
+789,League of Legends,textbook,111,915,90,0
+790,League of Legends,casual,323,817,1043,1
+791,Online Chess,passive,324,776,198,1
+792,Minecraft,hardcore,203,844,1542,1
+793,Minecraft,hardcore,230,1011,1329,1
+794,League of Legends,hardcore,473,468,1650,1
+795,Minecraft,textbook,219,751,740,0
+796,League of Legends,pro,465,597,1425,1
+797,League of Legends,solo,356,330,492,1
+798,League of Legends,newbie,135,1060,1807,0
+799,Minecraft,team player,321,1298,1800,0
+800,Online Chess,pro,354,1108,1255,0
+801,League of Legends,strategic,250,982,1082,0
+802,Online Chess,passive,119,1498,1726,0
+803,Online Chess,casual,165,1253,112,1
+804,Minecraft,solo,155,540,1758,0
+805,Minecraft,coward,7,545,514,1
+806,Minecraft,textbook,203,729,1937,0
+807,League of Legends,veteran,419,725,822,0
+808,League of Legends,passive,1,854,85,0
+809,Online Chess,veteran,32,1232,802,0
+810,Online Chess,veteran,464,399,542,0
+811,Minecraft,textbook,487,748,1815,1
+812,League of Legends,passive,419,796,1795,1
+813,Online Chess,strategic,414,390,748,1
+814,Minecraft,strategic,71,469,1634,0
+815,League of Legends,coward,421,1068,751,1
+816,League of Legends,veteran,85,710,90,0
+817,Minecraft,newbie,156,125,1206,1
+818,League of Legends,textbook,444,1245,910,0
+819,League of Legends,aggressive,62,1388,81,1
+820,Minecraft,passive,429,533,1749,0
+821,Online Chess,strategic,299,862,501,1
+822,Online Chess,veteran,157,874,1378,0
+823,Online Chess,team player,1,610,278,1
+824,League of Legends,veteran,462,553,134,0
+825,Minecraft,coward,200,464,324,1
+826,Minecraft,strategic,241,179,1770,0
+827,Online Chess,newbie,179,162,10,1
+828,Minecraft,newbie,416,343,1492,1
+829,Minecraft,passive,118,1497,1063,0
+830,Minecraft,passive,142,1143,475,1
+831,League of Legends,aggressive,281,391,324,1
+832,Minecraft,newbie,240,364,144,1
+833,Minecraft,team player,202,391,1224,1
+834,Online Chess,hardcore,370,112,1382,0
+835,Minecraft,textbook,111,1368,81,0
+836,League of Legends,casual,457,979,1573,1
+837,Online Chess,casual,146,282,210,0
+838,Minecraft,coward,209,731,633,0
+839,Online Chess,hardcore,151,450,1506,0
+840,Online Chess,hardcore,231,1175,1074,1
+841,Online Chess,strategic,61,323,1978,1
+842,Online Chess,aggressive,305,250,1363,0
+843,League of Legends,hardcore,151,886,1123,0
+844,Online Chess,newbie,305,244,80,1
+845,Minecraft,veteran,0,627,428,0
+846,Minecraft,pro,387,904,1885,0
+847,League of Legends,pro,56,1317,1037,1
+848,Minecraft,pro,474,367,776,1
+849,League of Legends,hardcore,442,1284,1500,1
+850,League of Legends,textbook,185,922,512,1
+851,League of Legends,solo,170,1083,1676,1
+852,League of Legends,veteran,0,1326,1383,1
+853,League of Legends,strategic,303,1297,1327,0
+854,Online Chess,casual,261,629,742,0
+855,Online Chess,solo,99,694,1386,0
+856,League of Legends,veteran,292,1131,385,0
+857,League of Legends,passive,463,1009,185,0
+858,League of Legends,aggressive,348,899,812,1
+859,Online Chess,textbook,101,1169,34,0
+860,Minecraft,casual,52,768,1847,1
+861,League of Legends,team player,27,1471,1755,1
+862,Minecraft,solo,189,587,584,0
+863,Minecraft,veteran,489,870,1975,0
+864,Minecraft,team player,242,1456,1933,0
+865,Minecraft,aggressive,179,412,1983,0
+866,Minecraft,textbook,488,432,453,1
+867,League of Legends,newbie,29,397,1783,0
+868,Online Chess,strategic,395,1020,1176,1
+869,League of Legends,textbook,295,898,1393,1
+870,Minecraft,casual,458,299,1924,0
+871,League of Legends,textbook,277,425,1100,0
+872,Online Chess,strategic,370,1270,1444,0
+873,Online Chess,strategic,431,1301,1527,0
+874,Minecraft,pro,439,662,1011,0
+875,Online Chess,textbook,128,609,1854,1
+876,Minecraft,veteran,263,1182,1106,0
+877,Online Chess,veteran,339,413,1186,1
+878,Minecraft,solo,423,413,1458,1
+879,Minecraft,strategic,393,520,277,1
+880,Minecraft,newbie,411,812,900,0
+881,Minecraft,passive,202,241,1865,1
+882,Online Chess,hardcore,332,911,538,1
+883,League of Legends,pro,362,1056,1108,1
+884,Online Chess,pro,79,495,976,0
+885,Online Chess,solo,112,388,8,1
+886,League of Legends,casual,67,929,1394,0
+887,Online Chess,passive,291,1318,516,1
+888,League of Legends,strategic,281,794,446,0
+889,League of Legends,casual,190,735,405,0
+890,Online Chess,solo,458,205,337,0
+891,Online Chess,casual,370,350,298,0
+892,League of Legends,casual,220,1470,1933,1
+893,Minecraft,hardcore,3,1050,107,1
+894,Online Chess,strategic,350,1274,851,0
+895,League of Legends,newbie,230,790,1041,0
+896,Minecraft,passive,3,540,1028,0
+897,Minecraft,strategic,231,1485,1440,0
+898,Online Chess,pro,131,1109,981,1
+899,League of Legends,team player,41,1441,544,0
+900,Minecraft,team player,92,867,1494,1
+901,Online Chess,casual,170,415,395,0
+902,Online Chess,team player,67,1036,1990,0
+903,Online Chess,pro,419,821,90,1
+904,Online Chess,solo,467,257,973,1
+905,Minecraft,strategic,63,332,1628,1
+906,Online Chess,coward,77,1404,865,1
+907,League of Legends,veteran,250,1041,1013,0
+908,Online Chess,newbie,310,313,1412,1
+909,Online Chess,coward,448,942,1529,0
+910,League of Legends,team player,311,1357,1602,1
+911,Online Chess,hardcore,357,847,368,1
+912,League of Legends,textbook,267,738,513,0
+913,League of Legends,textbook,400,1332,524,0
+914,Minecraft,passive,332,916,1738,1
+915,Minecraft,veteran,270,593,681,1
+916,Online Chess,strategic,53,1237,1241,1
+917,League of Legends,team player,264,598,769,1
+918,Online Chess,team player,270,1319,1791,0
+919,Minecraft,pro,207,1464,1978,1
+920,Online Chess,veteran,133,674,1625,0
+921,Online Chess,textbook,34,717,345,1
+922,Online Chess,team player,309,1098,1793,0
+923,Minecraft,casual,144,1325,1120,0
+924,Minecraft,strategic,170,1234,922,0
+925,League of Legends,solo,41,550,1996,0
+926,Minecraft,coward,103,1445,1149,1
+927,League of Legends,solo,191,222,257,0
+928,Minecraft,aggressive,121,218,906,0
+929,Minecraft,veteran,294,1048,1737,0
+930,Online Chess,hardcore,332,1181,61,1
+931,Minecraft,textbook,204,1065,991,0
+932,League of Legends,strategic,237,215,234,1
+933,Online Chess,coward,368,1105,1506,0
+934,Minecraft,pro,78,1046,250,0
+935,Online Chess,strategic,174,550,338,0
+936,Minecraft,passive,18,945,919,1
+937,Online Chess,solo,255,952,356,0
+938,Minecraft,newbie,30,1051,480,1
+939,Online Chess,casual,321,382,108,0
+940,League of Legends,textbook,321,681,1581,1
+941,League of Legends,casual,55,485,213,0
+942,League of Legends,solo,446,852,1755,0
+943,League of Legends,newbie,416,1337,42,1
+944,Minecraft,solo,398,396,1834,1
+945,Online Chess,strategic,22,1348,1935,1
+946,Online Chess,team player,48,1414,320,0
+947,League of Legends,newbie,103,697,1115,1
+948,League of Legends,aggressive,232,845,1615,1
+949,Minecraft,team player,278,452,445,0
+950,League of Legends,team player,255,527,465,1
+951,Minecraft,hardcore,188,1484,1320,0
+952,Minecraft,coward,252,1110,890,1
+953,Minecraft,hardcore,367,1369,1867,1
+954,Minecraft,coward,443,989,1304,1
+955,Online Chess,hardcore,96,1147,1428,1
+956,Minecraft,veteran,475,887,854,1
+957,Online Chess,strategic,7,655,1951,0
+958,League of Legends,aggressive,29,358,984,0
+959,Minecraft,hardcore,110,1108,905,0
+960,Online Chess,newbie,337,555,391,0
+961,Minecraft,textbook,97,745,1295,1
+962,Minecraft,strategic,191,1031,1215,1
+963,Online Chess,newbie,455,926,87,1
+964,Minecraft,aggressive,456,557,745,0
+965,Online Chess,pro,313,1271,1503,1
+966,League of Legends,hardcore,292,1447,423,1
+967,Minecraft,veteran,166,1397,1015,0
+968,Online Chess,team player,283,1192,1907,0
+969,League of Legends,textbook,40,286,37,1
+970,League of Legends,solo,77,1309,1979,0
+971,Minecraft,coward,454,469,1504,1
+972,Minecraft,solo,261,1123,1691,1
+973,Minecraft,veteran,245,189,1242,0
+974,Online Chess,aggressive,341,383,911,0
+975,Minecraft,casual,128,1104,325,1
+976,League of Legends,textbook,276,398,158,1
+977,Minecraft,casual,170,528,932,0
+978,League of Legends,team player,240,899,604,1
+979,Minecraft,casual,197,799,1843,1
+980,Online Chess,textbook,493,1118,1993,1
+981,Minecraft,aggressive,45,489,1808,0
+982,Online Chess,strategic,243,593,1703,0
+983,League of Legends,hardcore,46,1486,1619,0
+984,League of Legends,team player,233,496,1815,0
+985,Online Chess,textbook,398,1496,1641,1
+986,Online Chess,hardcore,108,280,497,0
+987,Online Chess,textbook,2,1001,727,1
+988,Minecraft,hardcore,427,297,1534,0
+989,Minecraft,hardcore,260,607,1438,0
+990,Minecraft,aggressive,361,1421,666,0
+991,League of Legends,textbook,154,443,1350,1
+992,Online Chess,strategic,277,1263,1495,1
+993,League of Legends,casual,433,991,112,1
+994,Minecraft,casual,17,881,710,1
+995,League of Legends,aggressive,461,1212,1212,1
+996,Minecraft,casual,373,765,1089,0
+997,Minecraft,pro,337,1204,528,0
+998,Minecraft,hardcore,400,263,1531,0
+999,League of Legends,newbie,409,1273,1858,1
+1000,Minecraft,passive,123,1361,1944,0
+1001,Online Chess,pro,245,814,1140,0
+1002,Minecraft,strategic,286,941,1896,1
+1003,League of Legends,solo,250,499,559,0
+1004,League of Legends,newbie,41,800,1173,0
+1005,Minecraft,coward,166,1418,1526,0
+1006,League of Legends,veteran,127,1049,533,1
+1007,Online Chess,newbie,464,735,1391,1
+1008,Minecraft,coward,252,1098,919,0
+1009,League of Legends,pro,1,665,1247,1
+1010,Online Chess,casual,431,617,1927,0
+1011,Minecraft,aggressive,62,979,983,0
+1012,Online Chess,solo,463,827,1183,0
+1013,Minecraft,team player,441,870,1041,0
+1014,Minecraft,passive,147,258,1723,0
+1015,Online Chess,coward,476,230,1906,1
+1016,League of Legends,newbie,103,1379,607,0
+1017,League of Legends,team player,23,1256,1304,1
+1018,Online Chess,hardcore,477,247,1756,1
+1019,League of Legends,textbook,84,1372,1658,0
+1020,League of Legends,textbook,26,751,691,0
+1021,Online Chess,pro,203,115,1407,1
+1022,Online Chess,casual,16,1429,1514,1
+1023,Online Chess,strategic,228,1382,1398,1
+1024,Online Chess,solo,231,280,649,1
+1025,Minecraft,newbie,275,372,478,1
+1026,League of Legends,casual,225,1366,231,0
+1027,Minecraft,team player,185,1278,1538,1
+1028,Minecraft,solo,237,222,947,1
+1029,Online Chess,coward,258,821,1581,1
+1030,Online Chess,veteran,7,718,1272,0
+1031,League of Legends,aggressive,397,249,187,1
+1032,Online Chess,coward,368,808,974,0
+1033,League of Legends,aggressive,210,1446,1793,1
+1034,Online Chess,passive,409,1483,1567,1
+1035,Online Chess,solo,213,915,905,0
+1036,League of Legends,newbie,394,803,1015,0
+1037,League of Legends,aggressive,363,442,516,1
+1038,Minecraft,team player,209,994,752,0
+1039,Minecraft,veteran,47,873,1193,1
+1040,Online Chess,newbie,333,1450,1017,0
+1041,League of Legends,solo,120,107,970,1
+1042,Minecraft,textbook,498,661,525,1
+1043,Online Chess,newbie,324,1197,124,1
+1044,League of Legends,aggressive,308,628,780,1
+1045,Online Chess,veteran,380,801,1615,1
+1046,Online Chess,passive,187,852,1950,0
+1047,League of Legends,textbook,252,510,1812,1
+1048,League of Legends,passive,40,1033,854,1
+1049,Minecraft,aggressive,482,367,684,0
+1050,League of Legends,team player,480,1215,1561,0
+1051,Online Chess,casual,221,117,505,1
+1052,League of Legends,hardcore,365,806,1375,1
+1053,Minecraft,casual,396,209,1450,0
+1054,League of Legends,team player,154,1394,1095,1
+1055,Online Chess,newbie,455,892,1494,1
+1056,League of Legends,veteran,66,1214,1738,1
+1057,Minecraft,team player,445,829,588,0
+1058,Online Chess,passive,97,157,797,1
+1059,Minecraft,strategic,493,1109,642,1
+1060,League of Legends,strategic,21,606,175,1
+1061,Online Chess,hardcore,170,987,1555,1
+1062,Online Chess,team player,379,1380,411,1
+1063,Online Chess,textbook,47,240,177,1
+1064,Online Chess,team player,88,1030,1052,1
+1065,League of Legends,aggressive,42,202,1916,1
+1066,Minecraft,hardcore,387,1004,1697,0
+1067,League of Legends,hardcore,487,773,1962,1
+1068,Minecraft,solo,423,1077,1688,1
+1069,Minecraft,team player,111,1016,1217,1
+1070,League of Legends,hardcore,59,665,1172,1
+1071,Online Chess,veteran,381,1080,64,0
+1072,Online Chess,solo,498,605,895,1
+1073,Online Chess,coward,195,270,1635,1
+1074,League of Legends,hardcore,274,817,660,0
+1075,Online Chess,newbie,350,1201,1797,0
+1076,Minecraft,casual,437,828,1004,0
+1077,League of Legends,passive,465,563,1645,0
+1078,League of Legends,solo,342,555,414,1
+1079,League of Legends,pro,110,529,1110,0
+1080,Online Chess,textbook,272,1052,1962,1
+1081,Online Chess,coward,325,945,1821,0
+1082,Online Chess,aggressive,233,1459,17,0
+1083,Minecraft,pro,390,597,390,1
+1084,League of Legends,pro,300,815,817,1
+1085,Minecraft,veteran,498,379,144,0
+1086,Minecraft,hardcore,111,897,1863,0
+1087,League of Legends,veteran,98,575,1473,1
+1088,League of Legends,hardcore,396,1179,1243,0
+1089,Online Chess,passive,13,604,970,0
+1090,Online Chess,hardcore,459,446,1207,0
+1091,League of Legends,passive,267,559,26,1
+1092,Online Chess,newbie,39,905,1956,0
+1093,League of Legends,textbook,415,255,1600,0
+1094,Online Chess,newbie,104,366,23,1
+1095,Online Chess,veteran,16,847,1438,1
+1096,League of Legends,team player,45,355,651,1
+1097,Online Chess,team player,30,155,544,0
+1098,Online Chess,veteran,465,353,1937,0
+1099,Online Chess,textbook,125,994,669,0
+1100,Online Chess,veteran,371,417,1294,1
+1101,League of Legends,casual,153,142,363,1
+1102,League of Legends,newbie,53,1306,370,1
+1103,Minecraft,coward,172,1257,59,0
+1104,Online Chess,textbook,57,491,616,1
+1105,League of Legends,passive,134,518,1460,1
+1106,Online Chess,casual,346,502,882,1
+1107,Minecraft,solo,295,1152,1566,1
+1108,Minecraft,solo,425,1121,1627,1
+1109,League of Legends,aggressive,168,810,1164,0
+1110,Online Chess,pro,276,1336,470,0
+1111,Minecraft,solo,297,365,1524,1
+1112,Minecraft,team player,439,290,72,1
+1113,League of Legends,coward,54,443,1861,0
+1114,League of Legends,passive,323,657,350,0
+1115,Online Chess,coward,141,140,178,1
+1116,Minecraft,pro,134,361,96,0
+1117,League of Legends,newbie,337,687,1757,0
+1118,Online Chess,pro,482,1155,1655,1
+1119,League of Legends,newbie,319,182,1995,1
+1120,League of Legends,strategic,310,918,1886,1
+1121,League of Legends,aggressive,207,420,1435,1
+1122,League of Legends,coward,37,142,1696,0
+1123,League of Legends,pro,167,553,1943,0
+1124,Minecraft,veteran,290,142,440,0
+1125,Online Chess,solo,288,550,11,1
+1126,Online Chess,team player,404,940,1845,0
+1127,League of Legends,strategic,362,1038,1189,0
+1128,League of Legends,textbook,275,1335,1701,0
+1129,League of Legends,veteran,406,1198,889,0
+1130,Online Chess,hardcore,243,782,47,0
+1131,Online Chess,pro,120,190,730,1
+1132,Minecraft,passive,356,1197,1384,1
+1133,League of Legends,passive,376,1157,625,1
+1134,League of Legends,strategic,63,1434,439,0
+1135,Minecraft,textbook,129,1198,1354,1
+1136,Minecraft,casual,165,464,578,0
+1137,Online Chess,aggressive,92,1274,646,1
+1138,Minecraft,pro,306,928,563,1
+1139,League of Legends,pro,122,318,960,1
+1140,Online Chess,veteran,218,376,1812,1
+1141,Minecraft,strategic,69,103,22,0
+1142,League of Legends,veteran,355,747,39,0
+1143,Minecraft,solo,161,691,1958,0
+1144,Minecraft,coward,222,1036,812,1
+1145,Minecraft,veteran,278,266,1547,1
+1146,League of Legends,solo,379,1374,625,0
+1147,League of Legends,casual,151,479,1310,1
+1148,Minecraft,coward,72,459,1173,1
+1149,Minecraft,veteran,391,1284,1563,1
+1150,Minecraft,solo,229,1467,1035,0
+1151,Minecraft,coward,301,311,1169,1
+1152,Online Chess,coward,485,1483,888,1
+1153,Online Chess,hardcore,207,1002,810,0
+1154,Minecraft,passive,484,108,1180,1
+1155,League of Legends,newbie,5,1242,1591,1
+1156,Minecraft,hardcore,279,1465,518,0
+1157,League of Legends,team player,88,961,830,1
+1158,Minecraft,casual,171,307,1640,0
+1159,League of Legends,pro,294,1367,278,0
+1160,League of Legends,aggressive,111,844,679,0
+1161,Minecraft,pro,60,684,156,1
+1162,Online Chess,team player,251,373,1738,1
+1163,League of Legends,passive,312,301,393,1
+1164,Online Chess,passive,38,862,609,1
+1165,Minecraft,pro,217,962,1327,1
+1166,Minecraft,casual,116,900,896,0
+1167,Minecraft,casual,461,726,407,0
+1168,League of Legends,passive,47,310,688,0
+1169,Minecraft,strategic,427,538,359,1
+1170,League of Legends,solo,438,1169,1262,0
+1171,Online Chess,passive,27,773,546,0
+1172,Online Chess,solo,299,736,1645,0
+1173,Minecraft,strategic,85,956,1140,1
+1174,League of Legends,textbook,262,811,1970,0
+1175,Online Chess,solo,43,523,634,0
+1176,Minecraft,hardcore,96,1412,1307,1
+1177,League of Legends,passive,94,887,1075,0
+1178,Minecraft,solo,133,1282,1051,1
+1179,Minecraft,veteran,409,714,342,1
+1180,Minecraft,strategic,34,251,551,1
+1181,League of Legends,passive,281,695,265,1
+1182,League of Legends,hardcore,76,338,755,1
+1183,Online Chess,coward,269,269,589,1
+1184,League of Legends,solo,349,872,580,1
+1185,Online Chess,aggressive,390,161,949,0
+1186,League of Legends,solo,332,179,981,0
+1187,Minecraft,team player,187,1304,788,0
+1188,League of Legends,newbie,321,196,828,0
+1189,League of Legends,hardcore,499,1094,296,1
+1190,Online Chess,aggressive,251,1479,1344,1
+1191,Minecraft,solo,9,630,1516,1
+1192,League of Legends,passive,45,676,1165,0
+1193,Minecraft,veteran,414,1286,398,0
+1194,Online Chess,casual,382,374,1088,0
+1195,Minecraft,hardcore,260,923,1100,0
+1196,Online Chess,hardcore,176,1488,418,0
+1197,League of Legends,pro,217,431,1388,1
+1198,League of Legends,casual,230,853,929,0
+1199,Minecraft,passive,180,1224,893,0
+1200,Online Chess,aggressive,15,394,924,1
+1201,Minecraft,solo,188,645,558,0
+1202,Minecraft,aggressive,142,1354,343,1
+1203,Minecraft,team player,264,780,1860,1
+1204,Minecraft,newbie,209,1458,1948,1
+1205,League of Legends,hardcore,316,701,1011,0
+1206,League of Legends,team player,92,996,970,0
+1207,Online Chess,pro,268,175,482,1
+1208,Minecraft,passive,87,1078,1882,1
+1209,League of Legends,textbook,451,383,1083,0
+1210,League of Legends,coward,57,1103,1537,0
+1211,Online Chess,strategic,109,1419,954,1
+1212,League of Legends,hardcore,404,1452,1652,0
+1213,Online Chess,newbie,83,647,1181,0
+1214,Minecraft,passive,74,1259,53,0
+1215,Online Chess,passive,6,1056,1428,0
+1216,Online Chess,pro,73,117,661,1
+1217,Online Chess,coward,437,1407,98,0
+1218,Minecraft,pro,387,1434,328,0
+1219,Online Chess,team player,129,831,325,0
+1220,Minecraft,strategic,377,1343,842,1
+1221,Minecraft,casual,174,435,1130,1
+1222,Online Chess,pro,448,685,484,1
+1223,Minecraft,aggressive,326,944,1271,0
+1224,Minecraft,solo,230,965,1442,1
+1225,Minecraft,passive,98,635,914,0
+1226,Minecraft,pro,132,799,1516,0
+1227,Online Chess,aggressive,64,521,1083,0
+1228,Minecraft,solo,381,997,1608,1
+1229,Minecraft,coward,37,514,659,0
+1230,Online Chess,pro,81,1062,293,1
+1231,League of Legends,newbie,267,1035,1367,1
+1232,League of Legends,casual,348,1178,788,0
+1233,Online Chess,veteran,90,487,1472,0
+1234,League of Legends,textbook,9,1063,1832,0
+1235,League of Legends,strategic,332,990,17,0
+1236,Online Chess,team player,32,105,1259,1
+1237,Minecraft,casual,17,1417,290,1
+1238,League of Legends,pro,479,1362,1328,1
+1239,Online Chess,aggressive,338,645,491,0
+1240,Minecraft,veteran,302,1424,1306,0
+1241,Minecraft,solo,322,556,1457,1
+1242,League of Legends,solo,156,1233,1287,0
+1243,League of Legends,passive,361,593,1800,0
+1244,Minecraft,hardcore,441,561,1019,1
+1245,Minecraft,veteran,315,899,402,1
+1246,League of Legends,strategic,132,514,1794,0
+1247,Minecraft,coward,135,311,1424,1
+1248,League of Legends,hardcore,148,940,1678,0
+1249,League of Legends,strategic,130,1197,826,0
+1250,Minecraft,textbook,23,898,994,0
+1251,League of Legends,hardcore,192,1379,1707,1
+1252,Minecraft,newbie,242,201,1987,0
+1253,League of Legends,coward,173,384,1704,1
+1254,Online Chess,coward,168,460,311,0
+1255,Minecraft,hardcore,98,543,1250,1
+1256,Minecraft,team player,71,1491,1504,0
+1257,League of Legends,passive,22,190,1438,1
+1258,League of Legends,newbie,482,1136,759,1
+1259,Online Chess,textbook,437,621,1848,0
+1260,League of Legends,coward,201,596,17,0
+1261,Online Chess,veteran,148,1300,1288,1
+1262,Online Chess,team player,202,869,1862,0
+1263,League of Legends,aggressive,239,1451,765,1
+1264,Minecraft,coward,20,508,1505,1
+1265,League of Legends,solo,237,1272,1468,1
+1266,League of Legends,textbook,21,1381,1777,0
+1267,Online Chess,textbook,357,1082,1130,1
+1268,Minecraft,pro,29,1316,382,0
+1269,Online Chess,pro,18,782,4,1
+1270,Online Chess,team player,442,213,1665,1
+1271,Online Chess,team player,373,1181,2000,1
+1272,Minecraft,veteran,248,891,814,0
+1273,Minecraft,newbie,206,909,1308,1
+1274,Minecraft,passive,421,1134,1733,0
+1275,League of Legends,pro,70,541,145,1
+1276,League of Legends,aggressive,243,391,747,0
+1277,League of Legends,newbie,196,816,1760,1
+1278,League of Legends,veteran,96,212,1055,0
+1279,League of Legends,newbie,153,261,1857,1
+1280,League of Legends,coward,261,951,56,0
+1281,Online Chess,strategic,157,865,1618,1
+1282,Online Chess,team player,499,950,1726,0
+1283,Online Chess,strategic,229,1318,520,1
+1284,Minecraft,textbook,280,1150,880,0
+1285,Minecraft,solo,260,789,1782,0
+1286,Minecraft,veteran,140,817,520,1
+1287,League of Legends,newbie,4,1138,1697,1
+1288,Online Chess,strategic,36,961,847,0
+1289,Minecraft,team player,253,1206,1629,0
+1290,Online Chess,passive,336,1158,741,0
+1291,Minecraft,hardcore,51,150,1052,1
+1292,League of Legends,newbie,121,1139,656,1
+1293,Online Chess,hardcore,282,1311,985,1
+1294,Minecraft,solo,15,1160,228,0
+1295,Online Chess,solo,78,270,1045,1
+1296,League of Legends,passive,254,299,1285,0
+1297,Minecraft,veteran,164,985,952,1
+1298,Minecraft,solo,371,1300,933,1
+1299,Online Chess,casual,75,1304,1642,0
+1300,Minecraft,coward,306,1486,813,1
+1301,League of Legends,newbie,469,1340,1748,0
+1302,Online Chess,solo,89,996,1069,1
+1303,League of Legends,passive,421,1067,1824,1
+1304,Minecraft,veteran,386,684,1729,1
+1305,Minecraft,casual,479,933,391,1
+1306,Minecraft,casual,388,1104,379,1
+1307,Online Chess,aggressive,385,1273,773,1
+1308,League of Legends,team player,306,198,1581,0
+1309,Online Chess,newbie,164,242,1105,1
+1310,League of Legends,casual,164,294,1542,1
+1311,League of Legends,passive,177,387,1099,1
+1312,Minecraft,solo,418,1444,370,0
+1313,Online Chess,coward,23,538,1808,0
+1314,League of Legends,solo,224,1070,1517,0
+1315,Minecraft,solo,402,161,1302,0
+1316,League of Legends,passive,115,626,1232,1
+1317,Online Chess,newbie,85,312,636,0
+1318,League of Legends,newbie,181,530,10,0
+1319,Online Chess,passive,105,1202,292,1
+1320,Online Chess,passive,397,1009,727,0
+1321,Online Chess,hardcore,250,648,644,0
+1322,League of Legends,strategic,210,1401,779,1
+1323,Online Chess,textbook,367,156,73,0
+1324,Minecraft,coward,24,337,610,0
+1325,Minecraft,textbook,229,153,244,1
+1326,Minecraft,aggressive,278,620,44,0
+1327,Minecraft,coward,419,289,1036,1
+1328,Online Chess,casual,423,1322,1377,0
+1329,Online Chess,team player,374,161,1766,1
+1330,Online Chess,aggressive,201,612,604,0
+1331,League of Legends,strategic,429,1102,99,1
+1332,Minecraft,solo,90,122,1439,1
+1333,Minecraft,newbie,443,703,1676,0
+1334,Online Chess,strategic,98,310,1569,1
+1335,League of Legends,hardcore,470,1480,397,1
+1336,Online Chess,solo,195,349,1251,0
+1337,Online Chess,hardcore,376,391,114,1
+1338,Minecraft,casual,49,712,1336,1
+1339,Minecraft,aggressive,140,1113,1731,0
+1340,Online Chess,strategic,460,1417,1143,0
+1341,Online Chess,solo,311,415,1257,1
+1342,Minecraft,solo,24,1273,330,1
+1343,Minecraft,aggressive,42,1338,1550,1
+1344,Online Chess,pro,76,515,495,0
+1345,Online Chess,strategic,27,1230,1249,0
+1346,Online Chess,strategic,65,1163,602,0
+1347,Online Chess,veteran,86,848,1310,1
+1348,Minecraft,veteran,113,163,109,0
+1349,Minecraft,aggressive,287,1024,474,0
+1350,Minecraft,aggressive,211,911,1029,0
+1351,Minecraft,coward,137,340,1629,0
+1352,Minecraft,aggressive,318,1162,1930,0
+1353,Online Chess,textbook,300,735,1456,0
+1354,Minecraft,pro,19,1053,22,0
+1355,League of Legends,pro,393,1045,1586,1
+1356,Online Chess,aggressive,300,1408,1488,0
+1357,League of Legends,aggressive,80,603,28,0
+1358,Online Chess,veteran,436,928,730,0
+1359,Online Chess,team player,223,882,351,1
+1360,League of Legends,textbook,155,1460,786,1
+1361,League of Legends,strategic,275,526,480,1
+1362,Minecraft,veteran,209,897,319,1
+1363,League of Legends,passive,469,1360,786,0
+1364,League of Legends,passive,319,1080,1996,1
+1365,Minecraft,casual,392,847,1549,1
+1366,Minecraft,coward,1,469,258,0
+1367,Minecraft,newbie,155,991,420,1
+1368,League of Legends,passive,374,238,1227,0
+1369,Minecraft,coward,36,101,1573,1
+1370,League of Legends,pro,158,729,501,0
+1371,League of Legends,coward,264,1177,999,0
+1372,Online Chess,veteran,126,437,1470,0
+1373,Minecraft,newbie,450,743,1358,0
+1374,League of Legends,passive,51,1175,948,1
+1375,Online Chess,hardcore,71,1409,796,0
+1376,League of Legends,pro,468,361,1420,0
+1377,Online Chess,hardcore,316,844,1654,1
+1378,Minecraft,coward,195,1132,1429,1
+1379,Online Chess,casual,211,314,1366,1
+1380,Minecraft,veteran,302,662,1728,0
+1381,League of Legends,hardcore,68,526,278,0
+1382,Online Chess,hardcore,382,582,1713,0
+1383,Online Chess,newbie,59,1202,1119,0
+1384,League of Legends,textbook,346,1109,213,0
+1385,Minecraft,veteran,106,603,1104,0
+1386,Minecraft,pro,149,600,610,0
+1387,Online Chess,pro,403,322,1387,0
+1388,Online Chess,team player,61,1108,234,1
+1389,Online Chess,strategic,142,778,29,1
+1390,Minecraft,coward,85,581,258,1
+1391,Minecraft,veteran,422,701,1702,1
+1392,Online Chess,team player,492,1261,1473,1
+1393,Online Chess,passive,47,494,1392,0
+1394,Online Chess,team player,414,472,727,1
+1395,Minecraft,passive,50,707,1735,0
+1396,Minecraft,hardcore,91,453,79,1
+1397,Minecraft,coward,127,993,928,0
+1398,League of Legends,casual,203,1236,1033,0
+1399,Minecraft,team player,499,1174,1102,1
+1400,League of Legends,newbie,457,972,287,1
+1401,Online Chess,casual,255,446,351,1
+1402,Online Chess,hardcore,397,879,1835,1
+1403,League of Legends,aggressive,241,1054,589,0
+1404,Online Chess,aggressive,29,685,378,1
+1405,Minecraft,casual,38,428,1217,0
+1406,Minecraft,veteran,377,614,1864,0
+1407,Online Chess,textbook,60,455,698,0
+1408,Minecraft,passive,240,643,1819,0
+1409,Minecraft,aggressive,382,1180,386,0
+1410,League of Legends,casual,254,820,1347,1
+1411,Minecraft,solo,264,554,659,1
+1412,League of Legends,coward,356,512,1345,0
+1413,League of Legends,textbook,212,1317,1299,1
+1414,Minecraft,newbie,420,764,148,0
+1415,League of Legends,aggressive,311,715,1431,0
+1416,Minecraft,passive,368,280,1248,1
+1417,League of Legends,team player,481,1148,829,1
+1418,Online Chess,textbook,336,873,675,0
+1419,League of Legends,pro,384,173,904,1
+1420,League of Legends,aggressive,162,797,410,1
+1421,League of Legends,strategic,21,848,1079,0
+1422,Online Chess,textbook,89,1067,284,1
+1423,Minecraft,casual,114,784,787,0
+1424,League of Legends,aggressive,453,1334,709,0
+1425,Minecraft,pro,128,134,593,0
+1426,Minecraft,coward,366,743,46,0
+1427,Online Chess,team player,492,736,409,0
+1428,Online Chess,team player,184,169,505,1
+1429,Minecraft,veteran,92,183,771,0
+1430,Online Chess,veteran,105,489,1290,0
+1431,Minecraft,team player,341,1136,1884,0
+1432,League of Legends,veteran,450,508,745,0
+1433,League of Legends,solo,493,234,1381,1
+1434,Minecraft,casual,264,978,129,0
+1435,Online Chess,textbook,250,463,1139,0
+1436,Online Chess,pro,61,1021,57,0
+1437,League of Legends,hardcore,191,810,642,1
+1438,League of Legends,coward,388,1179,1815,1
+1439,Minecraft,team player,225,1361,1343,1
+1440,Minecraft,solo,224,220,1314,1
+1441,Minecraft,passive,226,1303,810,1
+1442,Minecraft,aggressive,479,872,1140,1
+1443,Online Chess,newbie,151,522,1460,0
+1444,League of Legends,pro,231,964,418,0
+1445,League of Legends,solo,52,364,1282,0
+1446,Online Chess,hardcore,390,1427,1024,1
+1447,League of Legends,solo,487,1483,1061,1
+1448,League of Legends,hardcore,137,559,1299,0
+1449,League of Legends,hardcore,385,1336,396,0
+1450,League of Legends,team player,173,248,1577,0
+1451,League of Legends,aggressive,302,1079,1101,1
+1452,League of Legends,strategic,350,1046,672,1
+1453,Minecraft,casual,116,1356,999,0
+1454,League of Legends,hardcore,401,879,1717,0
+1455,Minecraft,strategic,273,1224,373,0
+1456,Online Chess,casual,406,790,1496,1
+1457,Minecraft,aggressive,146,1265,1388,1
+1458,Minecraft,solo,243,1016,1396,0
+1459,Minecraft,pro,106,394,697,1
+1460,Online Chess,aggressive,490,1265,1144,1
+1461,Online Chess,casual,481,105,463,1
+1462,Minecraft,hardcore,230,123,1678,1
+1463,Minecraft,pro,338,601,1406,1
+1464,League of Legends,coward,59,1150,199,1
+1465,Minecraft,coward,264,794,170,0
+1466,Minecraft,pro,322,248,469,1
+1467,League of Legends,veteran,254,733,1441,0
+1468,Online Chess,solo,394,884,1869,1
+1469,Minecraft,aggressive,285,1352,821,0
+1470,League of Legends,pro,176,1354,1083,0
+1471,League of Legends,pro,255,1411,1502,0
+1472,Online Chess,newbie,310,165,340,0
+1473,Minecraft,passive,298,1443,856,0
+1474,Minecraft,team player,157,648,1773,0
+1475,League of Legends,passive,304,1001,564,1
+1476,Minecraft,aggressive,406,1132,1539,0
+1477,League of Legends,strategic,76,1447,404,0
+1478,Online Chess,strategic,36,383,1943,0
+1479,Online Chess,newbie,21,742,521,1
+1480,Minecraft,strategic,321,156,1278,1
+1481,Online Chess,solo,491,184,1250,1
+1482,League of Legends,veteran,341,437,521,1
+1483,League of Legends,veteran,181,468,862,1
+1484,Online Chess,hardcore,272,237,358,0
+1485,League of Legends,solo,416,1291,1550,1
+1486,League of Legends,aggressive,227,668,1004,1
+1487,Online Chess,textbook,430,669,108,0
+1488,Online Chess,team player,474,526,229,1
+1489,League of Legends,newbie,66,902,1473,0
+1490,Minecraft,casual,269,963,4,0
+1491,League of Legends,strategic,78,106,159,1
+1492,Online Chess,textbook,100,884,924,0
+1493,League of Legends,pro,96,410,846,0
+1494,League of Legends,team player,165,524,1889,0
+1495,Minecraft,casual,177,1076,337,1
+1496,League of Legends,strategic,457,636,838,0
+1497,Online Chess,casual,268,437,1354,1
+1498,League of Legends,pro,467,741,1290,0
+1499,League of Legends,coward,265,566,1250,0

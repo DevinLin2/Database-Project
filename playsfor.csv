@@ -1,0 +1,516 @@
+Gamename,PlayerID,TeamID,Role
+Minecraft,0,44,strategist
+Minecraft,1,22,carry
+League of Legends,3,36,player
+Online Chess,8,31,support
+League of Legends,10,13,strategist
+Online Chess,11,6,support
+Minecraft,12,35,support
+League of Legends,18,14,strategist
+Minecraft,23,5,carry
+Minecraft,24,36,manager
+League of Legends,25,21,coach
+Minecraft,27,10,carry
+League of Legends,32,8,manager
+Online Chess,33,20,assistant
+Minecraft,43,2,assistant
+Minecraft,44,40,assistant
+Minecraft,49,38,strategist
+Online Chess,54,1,carry
+Online Chess,57,10,player
+Online Chess,58,29,assistant
+League of Legends,63,35,strategist
+Online Chess,67,4,strategist
+Minecraft,69,15,assistant
+League of Legends,73,16,coach
+Minecraft,76,29,player
+Online Chess,78,36,manager
+Online Chess,79,13,manager
+League of Legends,84,12,support
+Minecraft,86,34,carry
+Minecraft,88,40,advisor
+League of Legends,90,2,carry
+Minecraft,95,12,assistant
+Online Chess,99,24,coach
+Online Chess,100,23,advisor
+League of Legends,101,46,manager
+Online Chess,103,30,carry
+League of Legends,106,13,player
+Minecraft,111,50,strategist
+Minecraft,116,21,coach
+Minecraft,120,33,strategist
+Minecraft,121,47,carry
+Minecraft,124,11,player
+Minecraft,125,41,strategist
+League of Legends,126,46,manager
+Online Chess,130,13,manager
+League of Legends,132,33,manager
+Online Chess,141,47,support
+Online Chess,146,34,coach
+Online Chess,149,22,assistant
+Minecraft,150,27,strategist
+League of Legends,151,47,advisor
+Online Chess,155,8,assistant
+League of Legends,160,48,strategist
+Minecraft,173,47,player
+League of Legends,174,46,advisor
+Online Chess,175,38,carry
+Minecraft,178,23,strategist
+Online Chess,182,31,carry
+Online Chess,184,29,coach
+League of Legends,186,39,player
+Online Chess,187,15,assistant
+Minecraft,195,50,carry
+Online Chess,196,29,assistant
+Online Chess,197,13,carry
+Minecraft,200,37,manager
+Online Chess,203,36,player
+League of Legends,205,49,player
+Online Chess,207,9,assistant
+Online Chess,208,34,manager
+Minecraft,209,47,manager
+Online Chess,211,48,strategist
+Online Chess,212,38,strategist
+Online Chess,216,48,support
+Minecraft,218,27,manager
+Minecraft,221,30,strategist
+League of Legends,223,41,strategist
+Minecraft,224,41,support
+Minecraft,225,39,support
+Minecraft,227,8,support
+League of Legends,232,41,coach
+Online Chess,238,40,assistant
+League of Legends,239,43,strategist
+Minecraft,240,30,advisor
+League of Legends,245,13,player
+League of Legends,252,24,carry
+Online Chess,254,14,advisor
+League of Legends,256,42,player
+Online Chess,261,15,support
+Online Chess,262,0,support
+League of Legends,265,7,coach
+League of Legends,274,22,assistant
+Online Chess,275,38,coach
+Minecraft,278,50,advisor
+League of Legends,279,15,player
+Online Chess,284,39,coach
+Minecraft,285,16,assistant
+League of Legends,286,14,player
+Minecraft,290,45,manager
+League of Legends,291,11,carry
+Minecraft,297,49,carry
+Online Chess,302,12,player
+League of Legends,310,44,strategist
+League of Legends,312,17,assistant
+Online Chess,314,38,assistant
+Minecraft,317,40,carry
+Minecraft,323,10,manager
+Online Chess,324,14,advisor
+Online Chess,330,19,assistant
+Online Chess,331,2,support
+Online Chess,332,48,coach
+Online Chess,333,47,assistant
+Online Chess,334,43,carry
+League of Legends,335,38,manager
+Minecraft,340,7,advisor
+Minecraft,343,5,carry
+Minecraft,344,3,manager
+League of Legends,347,2,advisor
+League of Legends,349,27,support
+League of Legends,354,14,strategist
+Online Chess,356,42,manager
+Online Chess,357,41,assistant
+Online Chess,361,23,manager
+Minecraft,370,33,carry
+League of Legends,372,24,player
+Online Chess,373,35,carry
+Online Chess,375,47,support
+Online Chess,380,7,assistant
+Online Chess,381,38,assistant
+Online Chess,382,4,advisor
+League of Legends,384,10,coach
+Minecraft,386,7,manager
+League of Legends,387,7,advisor
+Minecraft,390,33,player
+League of Legends,391,39,support
+Minecraft,393,35,manager
+Online Chess,394,35,advisor
+Minecraft,397,14,player
+League of Legends,401,6,support
+Minecraft,403,43,player
+League of Legends,404,4,support
+Online Chess,409,1,assistant
+Online Chess,410,30,assistant
+Minecraft,416,8,support
+Minecraft,418,22,manager
+Online Chess,423,0,manager
+League of Legends,424,40,strategist
+Online Chess,426,47,carry
+League of Legends,428,23,coach
+League of Legends,429,30,carry
+Online Chess,433,32,support
+League of Legends,436,49,manager
+Online Chess,437,16,coach
+Minecraft,439,46,carry
+Online Chess,444,4,strategist
+Online Chess,445,0,carry
+Online Chess,447,31,support
+League of Legends,449,48,manager
+Online Chess,453,3,advisor
+Minecraft,468,41,coach
+League of Legends,472,49,support
+Minecraft,473,34,advisor
+Minecraft,474,11,assistant
+Minecraft,484,16,strategist
+Minecraft,490,47,support
+Minecraft,492,11,assistant
+Online Chess,494,29,support
+League of Legends,505,23,support
+Online Chess,507,11,player
+League of Legends,508,5,support
+League of Legends,510,35,coach
+Online Chess,511,17,player
+Online Chess,512,39,carry
+League of Legends,518,45,support
+Minecraft,523,47,player
+League of Legends,524,27,manager
+Online Chess,528,47,carry
+Minecraft,530,15,strategist
+League of Legends,532,18,carry
+Minecraft,537,46,support
+League of Legends,538,37,advisor
+Minecraft,541,33,coach
+Online Chess,542,47,support
+Online Chess,543,26,coach
+Minecraft,544,15,manager
+League of Legends,546,11,carry
+Minecraft,549,2,player
+League of Legends,550,29,support
+League of Legends,551,36,player
+League of Legends,552,18,carry
+Online Chess,554,11,manager
+League of Legends,561,42,player
+Online Chess,567,31,assistant
+Minecraft,568,42,support
+Minecraft,569,4,coach
+Online Chess,570,21,support
+League of Legends,571,29,advisor
+League of Legends,573,2,coach
+League of Legends,575,36,coach
+League of Legends,576,21,assistant
+Online Chess,583,29,player
+Online Chess,584,47,manager
+Online Chess,590,41,carry
+League of Legends,591,8,coach
+Minecraft,592,4,carry
+Minecraft,593,27,carry
+Online Chess,595,11,coach
+League of Legends,600,1,player
+Online Chess,604,13,player
+Minecraft,606,31,coach
+Online Chess,610,15,player
+Minecraft,617,49,carry
+Online Chess,622,29,player
+League of Legends,639,4,assistant
+Minecraft,640,7,support
+League of Legends,643,18,manager
+Online Chess,644,37,manager
+Online Chess,646,12,support
+Minecraft,648,34,manager
+Minecraft,651,11,assistant
+Online Chess,655,5,player
+Online Chess,656,28,coach
+League of Legends,661,27,assistant
+Online Chess,663,41,manager
+Online Chess,664,42,carry
+League of Legends,667,2,manager
+Minecraft,671,1,manager
+Minecraft,672,30,strategist
+Online Chess,674,45,carry
+League of Legends,676,5,advisor
+Minecraft,682,22,support
+League of Legends,687,49,support
+Online Chess,698,25,manager
+League of Legends,700,1,assistant
+League of Legends,701,26,strategist
+League of Legends,717,17,advisor
+League of Legends,722,2,assistant
+Minecraft,723,21,strategist
+Online Chess,726,30,manager
+Online Chess,732,23,support
+League of Legends,742,1,coach
+League of Legends,743,19,strategist
+Online Chess,745,19,strategist
+Online Chess,748,38,support
+Minecraft,749,12,manager
+Online Chess,750,47,manager
+Minecraft,752,31,manager
+Minecraft,754,1,advisor
+Online Chess,756,43,player
+Minecraft,757,2,carry
+League of Legends,759,10,carry
+Online Chess,761,35,strategist
+Online Chess,764,33,coach
+Online Chess,765,46,coach
+Online Chess,766,41,player
+Minecraft,767,6,advisor
+League of Legends,771,44,strategist
+Online Chess,772,16,strategist
+Online Chess,773,15,advisor
+Minecraft,780,28,coach
+Minecraft,782,22,strategist
+League of Legends,783,20,carry
+Minecraft,784,39,strategist
+League of Legends,786,41,assistant
+League of Legends,790,49,coach
+Online Chess,791,34,coach
+Minecraft,793,30,support
+League of Legends,798,14,manager
+Online Chess,802,1,player
+Online Chess,809,39,manager
+Minecraft,811,47,coach
+League of Legends,816,17,assistant
+League of Legends,818,18,carry
+League of Legends,824,7,coach
+Minecraft,828,14,coach
+Minecraft,829,16,strategist
+League of Legends,831,14,assistant
+Minecraft,832,3,strategist
+Minecraft,838,43,coach
+Online Chess,840,30,carry
+League of Legends,843,23,assistant
+Online Chess,844,37,support
+Minecraft,848,17,strategist
+League of Legends,850,10,support
+League of Legends,851,41,support
+Online Chess,859,39,support
+League of Legends,861,45,support
+Minecraft,870,25,player
+Minecraft,874,21,advisor
+Minecraft,876,26,assistant
+Online Chess,877,26,assistant
+Minecraft,879,29,coach
+League of Legends,883,13,player
+Online Chess,887,3,player
+League of Legends,888,34,manager
+Minecraft,896,32,coach
+Online Chess,898,28,manager
+Minecraft,900,33,manager
+Online Chess,901,50,strategist
+Online Chess,903,44,support
+Minecraft,905,50,carry
+Online Chess,908,18,coach
+League of Legends,910,38,advisor
+Online Chess,911,38,carry
+League of Legends,912,23,strategist
+League of Legends,913,24,support
+Minecraft,919,32,manager
+Online Chess,920,20,carry
+Minecraft,923,16,carry
+Minecraft,924,29,strategist
+League of Legends,925,25,coach
+League of Legends,927,18,strategist
+Minecraft,928,48,assistant
+Online Chess,935,14,manager
+Online Chess,937,41,carry
+Minecraft,938,26,player
+League of Legends,941,30,player
+Online Chess,945,43,assistant
+Online Chess,946,36,support
+League of Legends,947,49,support
+League of Legends,948,25,assistant
+Minecraft,949,29,player
+Minecraft,951,43,player
+Online Chess,957,30,coach
+League of Legends,958,4,advisor
+Minecraft,959,16,player
+Minecraft,961,20,player
+Minecraft,962,50,manager
+Minecraft,964,0,coach
+Online Chess,965,31,advisor
+Online Chess,968,44,strategist
+League of Legends,970,23,strategist
+Minecraft,977,29,support
+Minecraft,979,29,carry
+Minecraft,981,7,advisor
+League of Legends,983,34,support
+League of Legends,993,3,support
+Minecraft,996,7,assistant
+Minecraft,997,45,support
+League of Legends,1006,18,manager
+Online Chess,1007,3,advisor
+Minecraft,1008,25,assistant
+Online Chess,1010,7,player
+Minecraft,1011,30,player
+Online Chess,1012,29,manager
+Minecraft,1014,47,manager
+Online Chess,1015,41,player
+League of Legends,1016,34,manager
+League of Legends,1017,27,strategist
+Online Chess,1018,43,player
+Online Chess,1023,8,coach
+Minecraft,1025,31,assistant
+League of Legends,1026,13,support
+Minecraft,1027,46,manager
+Online Chess,1032,0,manager
+League of Legends,1033,0,coach
+League of Legends,1036,11,strategist
+Minecraft,1038,44,support
+Minecraft,1039,33,strategist
+Online Chess,1043,19,strategist
+Online Chess,1045,35,coach
+Online Chess,1046,0,manager
+League of Legends,1048,25,carry
+Minecraft,1049,45,manager
+Online Chess,1051,8,advisor
+League of Legends,1052,41,manager
+Minecraft,1053,42,manager
+League of Legends,1054,42,coach
+League of Legends,1056,32,carry
+Online Chess,1058,32,support
+League of Legends,1060,34,manager
+League of Legends,1067,43,support
+Minecraft,1068,27,manager
+League of Legends,1070,7,assistant
+Online Chess,1073,28,coach
+League of Legends,1077,49,support
+League of Legends,1078,13,coach
+Online Chess,1081,11,assistant
+Minecraft,1083,16,player
+Minecraft,1086,24,coach
+Online Chess,1089,50,coach
+League of Legends,1091,17,carry
+Online Chess,1092,5,advisor
+League of Legends,1093,29,manager
+Online Chess,1095,22,support
+League of Legends,1096,12,strategist
+Online Chess,1099,17,coach
+Online Chess,1100,47,player
+League of Legends,1101,35,assistant
+Online Chess,1104,36,carry
+Minecraft,1107,2,coach
+Minecraft,1111,36,assistant
+League of Legends,1119,39,coach
+League of Legends,1123,49,advisor
+Online Chess,1125,15,advisor
+League of Legends,1127,39,coach
+League of Legends,1128,18,manager
+Online Chess,1131,13,assistant
+Minecraft,1132,2,support
+League of Legends,1133,48,support
+League of Legends,1134,5,advisor
+Online Chess,1140,40,player
+Minecraft,1143,15,carry
+League of Legends,1146,31,strategist
+League of Legends,1147,10,support
+Minecraft,1148,16,support
+Minecraft,1149,22,coach
+Minecraft,1151,2,manager
+Online Chess,1152,12,advisor
+League of Legends,1155,43,player
+Minecraft,1158,27,strategist
+League of Legends,1159,22,advisor
+Online Chess,1164,21,manager
+Minecraft,1165,16,assistant
+Minecraft,1166,12,advisor
+Minecraft,1169,9,player
+Online Chess,1172,16,strategist
+Online Chess,1175,29,player
+Minecraft,1178,2,assistant
+Minecraft,1187,29,coach
+League of Legends,1189,0,carry
+Minecraft,1195,32,manager
+Online Chess,1196,42,strategist
+League of Legends,1197,47,advisor
+Minecraft,1201,21,advisor
+League of Legends,1206,21,manager
+League of Legends,1210,25,strategist
+Online Chess,1216,46,coach
+Online Chess,1219,27,strategist
+Minecraft,1220,23,coach
+Online Chess,1222,3,advisor
+Online Chess,1227,11,coach
+Minecraft,1228,13,carry
+League of Legends,1231,12,advisor
+Online Chess,1233,26,strategist
+League of Legends,1234,8,advisor
+Online Chess,1236,48,coach
+Minecraft,1237,36,advisor
+Online Chess,1239,31,advisor
+Minecraft,1240,9,advisor
+League of Legends,1243,38,manager
+Minecraft,1244,44,carry
+Minecraft,1245,0,assistant
+League of Legends,1246,44,strategist
+Minecraft,1247,22,assistant
+League of Legends,1260,10,support
+Minecraft,1272,1,player
+Minecraft,1274,3,assistant
+Minecraft,1284,40,player
+Minecraft,1286,43,strategist
+Online Chess,1290,48,manager
+League of Legends,1292,34,player
+Online Chess,1295,49,assistant
+Minecraft,1300,20,coach
+League of Legends,1301,38,assistant
+League of Legends,1310,4,strategist
+League of Legends,1314,31,strategist
+Online Chess,1320,42,carry
+Minecraft,1324,35,advisor
+Minecraft,1325,15,player
+Minecraft,1326,17,player
+Minecraft,1327,41,assistant
+Online Chess,1328,2,coach
+Online Chess,1336,45,support
+Online Chess,1337,27,coach
+Online Chess,1340,3,manager
+Online Chess,1341,1,manager
+Minecraft,1352,33,advisor
+Online Chess,1356,21,carry
+Minecraft,1365,40,carry
+Minecraft,1366,2,support
+League of Legends,1368,43,strategist
+League of Legends,1370,14,support
+League of Legends,1371,9,assistant
+Online Chess,1372,49,assistant
+League of Legends,1376,31,coach
+Online Chess,1379,29,advisor
+Minecraft,1380,41,manager
+Online Chess,1383,34,advisor
+League of Legends,1384,37,strategist
+Minecraft,1386,32,support
+Online Chess,1388,13,manager
+Online Chess,1392,13,player
+Online Chess,1394,42,strategist
+League of Legends,1398,0,player
+Minecraft,1408,42,strategist
+Minecraft,1409,9,coach
+Minecraft,1416,15,carry
+Online Chess,1418,13,assistant
+League of Legends,1420,47,support
+Minecraft,1426,9,player
+Online Chess,1428,38,assistant
+Minecraft,1429,49,support
+League of Legends,1432,37,assistant
+Minecraft,1434,41,advisor
+League of Legends,1438,15,carry
+Minecraft,1439,29,strategist
+Minecraft,1440,20,coach
+Minecraft,1442,43,carry
+League of Legends,1444,18,assistant
+League of Legends,1445,6,carry
+Online Chess,1446,0,assistant
+League of Legends,1449,49,assistant
+League of Legends,1454,44,coach
+Minecraft,1455,37,strategist
+Online Chess,1456,19,carry
+Online Chess,1460,17,manager
+Minecraft,1463,43,support
+Minecraft,1465,17,coach
+Minecraft,1466,25,manager
+Minecraft,1474,29,carry
+League of Legends,1477,13,coach
+Online Chess,1479,22,carry
+League of Legends,1483,48,coach
+League of Legends,1493,27,strategist
+Online Chess,1497,39,assistant
