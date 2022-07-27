@@ -14,7 +14,7 @@ def make_select(query):
         return_val = connection.cursor().fetchall()
 
     except mysql.connector.Error as err:
-        print("Failed to query: ".format(err))
+        print("Failed to query: {}".format(err))
 
     #closes connection to database and returns selected data
     finally:
@@ -25,17 +25,17 @@ def make_select(query):
 
 
 # code for queries to change existing database (insert, update, delete)
-def sql_insert(query):
+def sql_insert(query, params):
     # connects and commits according to input query
     try:
         connection = mysql.connector.connect(host='localhost', database='matchmaking',
                                              user='root', password='Destroyer21823iw.')
-        connection.cursor().execute(query)
+        connection.cursor().execute(query, params)
         connection.commit()
         connection.cursor().close()
 
     except mysql.connector.Error as err:
-        print("Failed to query: ".format(err))
+        print("Failed to query: {}".format(err))
 
     # closes connection when done
     finally:
@@ -53,9 +53,10 @@ def search_player(ign, game_name):
 
 #creates a new user account, associated with this database and not a specific game
 def create_account(accID, name, discAccUser, email):
-    query = f"insert into Account (ACCID, Name, DiscAccUsername, Email) " \
-            f"values ({accID}, {name}, {discAccUser}, {email})"
-    sql_insert(query)
+    query = f"insert into account " \
+            f"values (%s, %s, %s, %s)"
+    params = (accID, name, discAccUser, email)
+    sql_insert(query, params)
 
 
 #link_game adds a player(player of a specific game associated with an account)
@@ -316,7 +317,7 @@ if __name__ == '__main__':
         elif user_input in functions:
             # print("Reminder: the expected arguments for this function are: ", inspect.getfullargspec(user_input))
             print("Reminder: the expected arguments for this function are: ", function_inputs[user_input])
-            user_input_args = input("Please enter your arguments, each separated by a space")
+            user_input_args = input("Please enter your arguments, each separated by a space\n")
             user_input_args = user_input_args.split()
             for i in user_input_args:
                 if i.isnumeric():
