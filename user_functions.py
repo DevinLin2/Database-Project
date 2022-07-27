@@ -1,11 +1,12 @@
 from http.client import FOUND
 import mysql.connector
 import random
+from pymysql import NULL
 
 
 # code which allows a selection query of the database
 def make_select(query, params):
-    return_val = -1
+    return_val = NULL
     try:
         # connects to locally(for now) held server and executes the query
         connection = mysql.connector.connect(host='localhost', database='matchmaking',
@@ -175,7 +176,7 @@ def number_of_byes(count):
 def eligible_player(p_ids, game):
     eligible_players = []
     for i in p_ids:
-        if search_player(i)["Name"] == game:
+        if search_player(i, game)["Name"] == game:
             eligible_players.append(i)
     return eligible_players
 
@@ -185,6 +186,11 @@ def eligible_player(p_ids, game):
 # gives byes to highest average elo teams, if available
 # afterwards, pairs highest and lowest elo teams
 def team_tourny_draw(available_teams_arr, game):
+    #remove teams with no eligible members
+    for i in available_teams_arr:
+        if eligible_player(check_roster(available_teams_arr[i]), game) is NULL:
+            available_teams_arr[i].pop()
+            
     #take team avg elo
     team_avg_elo = []
     for i in range(len(available_teams_arr)):
@@ -210,6 +216,13 @@ def team_tourny_draw(available_teams_arr, game):
         matchups.append([available_teams_arr.pop(-1), available_teams_arr(0)])
     print(matchups)
     return matchups
+
+
+def turn_string_to_list(string):
+    return_list = string.strip('][').split(', ')
+    for i in return_list:
+        i = int(i)
+    return return_list
 
 
 # draws tournament seeding for singles players into semi-random teams 
@@ -331,9 +344,12 @@ if __name__ == '__main__':
             print("Reminder: the expected arguments for this function are: ", function_inputs[user_input])
             user_input_args = input("Please enter your arguments, each separated by a space\n")
             user_input_args = user_input_args.split()
+            # parses out arguments from string
             for i in user_input_args:
                 if i.isnumeric():
                     i = int(i)
+            if user_input is "team_tourny_draw" or user_input is "singles_tourny_draw":
+                user_input_args[0] = turn_string_to_list(user_input_args[0])
             functions[user_input](*user_input_args)
         elif user_input != 'end':
             print("Sorry, your function was not recognized. Please try \'help\' if you're stuck!")
