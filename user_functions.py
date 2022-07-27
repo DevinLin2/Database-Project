@@ -292,8 +292,8 @@ if __name__ == '__main__':
     function_inputs = {
         "create_account": "(acc_id: int, game_name: str, disc_acc_user: str, email: str)",
         "link_game": "(gameID: int, game_name: str, playstyle: str, elo: str, time_played: str, money_spent: str, is_online: int)",
-        "search_player": search_player,
-        "update_game_profile": update_game_profile,
+        "search_player": "(ign: str, game_name: str)",
+        "update_game_profile": "(ign: str, game_name: str, playstyle: str, elo: int, time_played: int, money_spent: int, is_online: int)",
         "join_team": join_team,
         "find_team": find_team,
         "create_team": create_team,
