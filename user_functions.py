@@ -133,13 +133,16 @@ def check_roster(team_id):
     new_roster = []
     for i in roster:
         new_roster.append(int(i[0]))
-    # print(new_roster)
+    print(new_roster)
     return new_roster
 
 
 # help_func displays all available functions
 def help_func(funcs):
-    print("Functions currently available are as follows: ", funcs.keys(), ",  end.")
+    func_string = "\n"
+    for key in funcs:
+        func_string += key + "\n"
+    print("Functions currently available are as follows: \n", func_string + "end")
 
 
 # recursive function to perform quicksort on tourny draws
@@ -172,8 +175,9 @@ def part(team, elo, low, high):
 # returns number of byes appropriate for this round
 # should return 0 for rounds after the first one
 def number_of_byes(count):
-    power = int(math.log(count, 2))
-    number_of_byes = (math.pow(2, power + 1)) - count
+    # print(count)
+    power = math.ceil(math.log(count, 2))
+    number_of_byes = (math.pow(2, power)) - count
     return number_of_byes
 
 
@@ -192,14 +196,14 @@ def eligible_player(p_ids, game):
 # afterwards, pairs highest and lowest elo teams
 def team_tourny_draw(available_teams_arr, game):
     #remove teams with no eligible members
-    print(available_teams_arr)
+    # print(available_teams_arr)
     for i in range(len(available_teams_arr)):
         if len(eligible_player(check_roster(available_teams_arr[i]), game)) == 0:
             available_teams_arr.pop(i)
             
     #take team avg elo
     team_avg_elo = []
-    print(available_teams_arr)
+    # print(available_teams_arr)
     for i in range(len(available_teams_arr)):
         roster_size = 0
         team_elo = 0
@@ -208,13 +212,19 @@ def team_tourny_draw(available_teams_arr, game):
             team_elo += search_player(player, game)[0][3]
         team_avg_elo.append(team_elo/roster_size)
     #order teams by avg elo
-    print(team_avg_elo)
+    # print(team_avg_elo)
     quick_sort(available_teams_arr, team_avg_elo, 0, len(team_avg_elo) - 1)
-    print(available_teams_arr)
+    teams_elo = ""
+    for i in range(len(available_teams_arr)):
+        teams_elo += "[" + str(available_teams_arr[i]) + ": " + str(team_avg_elo[i]) + "]"
+        if i < len(available_teams_arr) - 1:
+            teams_elo += ", "
+    print(teams_elo)
+    # print(available_teams_arr)
     # find next power of two, and give teams byes
     # such that subsequent rounds will not have byes
     bye_count = number_of_byes(len(available_teams_arr))
-    print(bye_count)
+    # print(bye_count)
     # match teams, highest avg elos get byes, after that it's highest vs lowest
     byes = 0
     matchups = []
@@ -246,6 +256,7 @@ def turn_string_to_list(string):
 # (the remainder) miss out
 def singles_tourny_draw(available_players, desired_team_size, game):
     # remove ineligible players(wrong game)
+    desired_team_size = int(desired_team_size)
     available_players = eligible_player(available_players, game)
     # will be used to seed the temporary team numbers
     tourny_team_ids_int = random.randrange(10000000, 99900000, 10000)
@@ -253,14 +264,18 @@ def singles_tourny_draw(available_players, desired_team_size, game):
     player_elo_list = []
     # grab player elos, tab up overall elos
     for player in available_players:
-        player_elo = search_player(player, game)[0]["ELO"] # THIS MIGHT BE A MISTAKE, BUT I CAN'T CHECK RN (added [0])
+        player_elo = search_player(player, game)[0][3]
         draw_mean_elo += player_elo
         player_elo_list.append(player_elo)
     # sort players by elo
-    quick_sort(available_players, draw_mean_elo, 0, len(draw_mean_elo) - 1)
+    quick_sort(available_players, player_elo_list, 0, len(player_elo_list) - 1)
     # add players to teams
     teams_list = []
-    for i in range(len((available_players))/desired_team_size):
+    if (math.floor(len(available_players)/desired_team_size)) == 0:
+        print("Not enough players to make one team")
+        return
+    # print(range(math.floor(len(available_players)/int(desired_team_size))))
+    for i in range(math.floor(len(available_players)/desired_team_size)):
         # creates teams in a team_id range so that they can be easily 
         # deleted after tournament
         t_id = tourny_team_ids_int + i
@@ -290,18 +305,20 @@ def singles_tourny_draw(available_players, desired_team_size, game):
         elo_goal = draw_mean_elo*desired_team_size - team_elo*(desired_team_size-1)
         while k < (len(available_players)-1) and not found_closest:
             # if we're in the sweet spot, we take that value
-            if abs(team_elo[k] - elo_goal) < abs(team_elo[k+1] - elo_goal):
+            if abs(player_elo_list[k] - elo_goal) < abs(player_elo_list[k+1] - elo_goal):
                 found_closest = True
                 k-=1
             k+=1
-        join_team(game, available_players(k), t_id, "Tournament")
-        available_players.pop(available_players(k))
+        current_player = int(available_players.pop(k))
+        join_team(game, current_player, t_id, "Tournament")
         player_elo_list.pop(k)
         # team is complete, now we add it to a list of teams
         teams_list.append(t_id)
     # run draw with tournament teams
-    print(teams_list)
-    return team_tourny_draw(teams_list)
+    # print(teams_list)
+    for i in teams_list:
+        print([i, check_roster(i)])
+    return team_tourny_draw(teams_list, game)
 
 
 
@@ -347,11 +364,17 @@ if __name__ == '__main__':
         if user_input == 'help':
             help_func(functions)
         # after you input a desired function, it returns with a list of expected args
-        if user_input == 'team_tourny_draw':
+        elif user_input == 'team_tourny_draw':
             teams = [int(item) for item in input("Enter the teams playing: ").split()]
             # print(teams)
             game = input("Enter game being played: ")
             functions[user_input](teams, game)
+        elif user_input == 'singles_tourny_draw':
+            teams = [int(item) for item in input("Enter the players playing: ").split()]
+            # print(teams)
+            size = input("Enter size of desired teams: ")
+            game = input("Enter game being played: ")
+            functions[user_input](teams, size, game)
         elif user_input in functions:
             # print("Reminder: the expected arguments for this function are: ", inspect.getfullargspec(user_input))
             print("Reminder: the expected arguments for this function are: ", function_inputs[user_input])
@@ -361,8 +384,6 @@ if __name__ == '__main__':
             for i in user_input_args:
                 if i.isnumeric():
                     i = int(i)
-            if user_input == "team_tourny_draw" or user_input == "singles_tourny_draw":
-                user_input_args[0] = turn_string_to_list(user_input_args[0])
             functions[user_input](*user_input_args)
         elif user_input != 'end':
             print("Sorry, your function was not recognized. Please try \'help\' if you're stuck!")
